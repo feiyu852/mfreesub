@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe",
+      "tag": "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - feiyu852",
       "server": "basalam.horqen.ir",
       "server_port": 21289,
       "uuid": "c12db015-a63c-43e5-a744-6398a90373b5"
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
+        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
+        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
