@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-      "server": "188.114.97.3",
-      "server_port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "172.67.150.22",
+      "server_port": 443,
+      "password": "LcICDcp!jD9TFV$NbH",
       "tls": {
         "enabled": true,
-        "server_name": "newwk1.f1w.de5.net",
+        "server_name": "dl2uF-iVdeZILZ3E86rK18.Hhvt37tjm2XBOsQL5HXogN-Y.woRKERS.dEv",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/tr/pg4wM48V9O859nmqsJg22EOFKN4S570y?ed=2560",
         "headers": {
-          "Host": "newwk1.f1w.de5.net"
+          "Host": "dl2uf-ivdezilz3e86rk18.hhvt37tjm2xbosql5hxogn-y.workers.dev"
         }
       }
     },
@@ -35,28 +38,20 @@
       "password": "81a20429165df87e"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
       "server": "91.240.86.70",
       "server_port": 22443,
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "91.240.86.70",
-        "insecure": true
+        "server_name": "hy.quattro-tech.ru",
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
@@ -64,6 +59,25 @@
         "enabled": true,
         "server_name": "msk.frkn.org",
         "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+      "server": "46.8.200.91",
+      "server_port": 443,
+      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
       }
     },
     {
@@ -87,41 +101,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
-      "server": "46.8.200.91",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/casc",
-        "headers": {
-          "Host": "cf3.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - feiyu852",
-      "server": "els1.mangshe.xyz",
-      "server_port": 2056,
-      "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
-      "tls": {
-        "enabled": true,
-        "server_name": "els1.mangshe.xyz",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -131,9 +110,7 @@
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 08 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
       ]
     },
     {
@@ -145,9 +122,7 @@
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 08 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

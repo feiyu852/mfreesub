@@ -5,70 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 塞舌尔 (Seychelles) 01 - feiyu852
-  server: 104.18.34.14
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 塞舌尔 (Seychelles) 02 - feiyu852
-  server: 104.18.47.113
-  port: 2086
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 塞舌尔 (Seychelles) 03 - feiyu852
-  server: 162.159.39.218
-  port: 2082
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 塞舌尔 (Seychelles) 04 - feiyu852
-  server: 104.18.32.47
-  port: 2087
-  udp: true
-  type: vless
-  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
-  tls: true
-  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /game
-    headers:
-      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
-- name: 🇸🇨 塞舌尔 (Seychelles) 05 - feiyu852
-  server: 104.16.174.164
-  port: 443
-  udp: true
-  type: vless
-  uuid: 73796e63-0000-4000-8000-000000000000
-  tls: true
-  servername: wireguard.ahmad-kh5716.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: wireguard.ahmad-kh5716.workers.dev
-- name: 🇸🇨 塞舌尔 (Seychelles) 06 - feiyu852
-  server: 156.226.168.221
+  server: hk3n.wxgqlfx.vip
   port: 35193
   udp: true
   type: vless
@@ -86,21 +23,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 塞舌尔 (Seychelles) 01 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 02 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 03 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 04 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 05 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 06 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 塞舌尔 (Seychelles) 01 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 02 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 03 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 04 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 05 - feiyu852
-  - 🇸🇨 塞舌尔 (Seychelles) 06 - feiyu852
 rules:
 - MATCH,PROXIES

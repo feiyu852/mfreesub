@@ -4,36 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇨🇦 加拿大 (Canada) 01 - feiyu852",
-      "server": "51.79.64.198",
-      "server_port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇨🇦 加拿大 (Canada) 02 - feiyu852",
-      "server": "66.70.179.198",
-      "server_port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-          "short_id": "83f8317a948bb769"
-        }
-      }
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 03 - feiyu852",
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 03 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 04 - feiyu852",
       "server": "216.152.147.28",
       "server_port": 443,
       "uuid": "d9e4721d-cdac-44c7-bc91-117367eac194",
@@ -43,7 +39,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -53,24 +49,100 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 04 - feiyu852",
-      "server": "149.22.95.183",
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 05 - feiyu852",
+      "server": "188.114.97.7",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "tls": {
+        "enabled": true,
+        "server_name": "o94Yv7LIF0-aNXISd9eFehvvS7mxn6bH.Z-ULe-iKa-d-e-ne-K-e.wORkeRs.Dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/7J5lLqtBnJg9WjVT?ed",
+        "headers": {
+          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
+        }
+      }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 05 - feiyu852",
-      "server": "15.235.75.71",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "FD3rCuOsxOay"
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 06 - feiyu852",
+      "server": "91.209.253.244",
+      "server_port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb.lovecf.ggff.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - feiyu852",
+      "server": "8.35.211.236",
+      "server_port": 443,
+      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "tls": {
+        "enabled": true,
+        "server_name": "kkkk-83j.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kkkk-83j.pages.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 08 - feiyu852",
+      "server": "104.24.31.89",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "rayan-007.nastaran.dpdns.org"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 09 - feiyu852",
       "server": "15.223.122.197",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -82,7 +154,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - feiyu852",
       "server": "23.162.200.198",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
@@ -90,15 +162,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - feiyu852",
-      "server": "166.88.130.218",
-      "server_port": 7018,
-      "method": "aes-256-gcm",
-      "password": "fbcec76953a2d173"
+      "tag": "🇨🇦 加拿大 (Canada) 11 - feiyu852",
+      "server": "149.22.95.183",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 12 - feiyu852",
       "server": "158.69.112.254",
       "server_port": 443,
       "uuid": "661f395d-b153-4199-a04b-693f5fe7f261",
@@ -108,7 +180,7 @@
         "server_name": "www.speedtest.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -119,7 +191,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - feiyu852",
+      "server": "130.107.73.148",
+      "server_port": 41373,
+      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
+          "short_id": "0e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 14 - feiyu852",
       "server": "209.200.246.148",
       "server_port": 443,
       "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
@@ -129,7 +222,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -140,7 +233,184 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 11 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 15 - feiyu852",
+      "server": "104.16.228.202",
+      "server_port": 2053,
+      "uuid": "50414e45-4c5f-5a45-5553-e0dfede8abc0",
+      "tls": {
+        "enabled": true,
+        "server_name": "xoz60debusrs.lezuwaeiunjs.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/e0dfede8abc0",
+        "headers": {
+          "Host": "xoz60debusrs.lezuwaeiunjs.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 16 - feiyu852",
+      "server": "185.170.166.123",
+      "server_port": 2087,
+      "uuid": "7a657573-23af-768c-8a29-df415ddb68d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "lbzkvtenuios.tik-tok-wold5514.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/df415ddb68d8",
+        "headers": {
+          "Host": "lbzkvtenuios.tik-tok-wold5514.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 17 - feiyu852",
+      "server": "51.222.155.113",
+      "server_port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - feiyu852",
+      "server": "172.66.44.211",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "wk1.f1w.de5.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "wk1.f1w.de5.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 19 - feiyu852",
+      "server": "172.67.202.235",
+      "server_port": 443,
+      "uuid": "566c0473-382e-aabb-c62a-f5bb00000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-4b5fd4.appelidmymat.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "ez-4b5fd4.appelidmymat.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 20 - feiyu852",
+      "server": "172.67.214.106",
+      "server_port": 443,
+      "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+      "tls": {
+        "enabled": true,
+        "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 21 - feiyu852",
+      "server": "104.18.0.1",
+      "server_port": 443,
+      "uuid": "3ccba794-1c6d-48a8-acf2-f5caf0e69d86",
+      "tls": {
+        "enabled": true,
+        "server_name": "all.speedtest03.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "all.speedtest03.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 22 - feiyu852",
+      "server": "138.197.141.58",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 23 - feiyu852",
+      "server": "8.6.112.9",
+      "server_port": 443,
+      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
+      "tls": {
+        "enabled": true,
+        "server_name": "ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "headers": {
+          "Host": "ancient-heart-60c5.dpccgizieb.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 24 - feiyu852",
       "server": "184.107.106.68",
       "server_port": 443,
       "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
@@ -151,32 +421,127 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 12 - feiyu852",
-      "server": "51.222.200.165",
-      "server_port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 25 - feiyu852",
+      "server": "66.70.179.198",
+      "server_port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+          "short_id": "83f8317a948bb769"
+        }
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 26 - feiyu852",
+      "server": "51.79.64.198",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 27 - feiyu852",
+      "server": "45.130.125.201",
+      "server_port": 80,
+      "uuid": "dc8a9493-c54a-459e-d060-81a700000001",
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "nahan-core.netizo09.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 28 - feiyu852",
       "server": "51.222.141.125",
       "server_port": 445,
       "method": "aes-256-gcm",
       "password": "zDNVedRFPQexG9v"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - feiyu852",
-      "server": "51.222.136.236",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 29 - feiyu852",
+      "server": "172.67.219.50",
+      "server_port": 443,
+      "uuid": "a5b1d1ec-327c-f1c5-5856-b34600000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-541f9d.ezaccess1d3db24.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "ez-541f9d.ezaccess1d3db24.workers.dev"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 30 - feiyu852",
+      "server": "104.16.174.164",
+      "server_port": 443,
+      "uuid": "73796e63-0000-4000-8000-000000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "wireguard.ahmad-kh5716.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "wireguard.ahmad-kh5716.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 31 - feiyu852",
+      "server": "104.21.8.176",
+      "server_port": 443,
+      "uuid": "7da33b25-cdd6-e481-afcf-c5d532361a70",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-1bc8ab.sekiro-c18.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 32 - feiyu852",
       "server": "66.70.179.124",
       "server_port": 443,
       "uuid": "c8f9e08d-7d07-4059-9f71-0b014b9e0ec7",
@@ -196,65 +561,181 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - feiyu852",
-      "server": "51.222.155.113",
-      "server_port": 5601,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 17 - feiyu852",
-      "server": "130.107.73.148",
-      "server_port": 41373,
-      "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇨🇦 加拿大 (Canada) 33 - feiyu852",
+      "server": "104.21.78.225",
+      "server_port": 443,
+      "uuid": "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "curly-night-6928.ggdhchjk.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "curly-night-6928.ggdhchjk.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 34 - feiyu852",
+      "server": "188.114.97.6",
+      "server_port": 2053,
+      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
+        "insecure": false,
+        "utls": {
           "enabled": true,
-          "public_key": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
-          "short_id": "0e"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 35 - feiyu852",
+      "server": "104.21.45.213",
+      "server_port": 443,
+      "uuid": "a5b1d1ec-327c-f1c5-5856-b34600000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-541f9d.ezaccess1d3db24.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "ez-541f9d.ezaccess1d3db24.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 36 - feiyu852",
+      "server": "172.64.155.209",
+      "server_port": 8443,
+      "uuid": "4ff70740-8c80-48ae-985f-2afe4924e908",
+      "tls": {
+        "enabled": true,
+        "server_name": "pubb.clnahanpnln.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "pubb.clnahanpnln.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 37 - feiyu852",
+      "server": "188.114.96.7",
+      "server_port": 8443,
+      "uuid": "362a79a2-ce89-8d2d-355c-f1f5071a445f",
+      "tls": {
+        "enabled": true,
+        "server_name": "fragrant-unit-d662.mmammatrix770088.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "fragrant-unit-d662.mmammatrix770088.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 38 - feiyu852",
+      "server": "104.16.72.30",
+      "server_port": 443,
+      "uuid": "a8b1d666-d3ba-4b17-90c4-ba7514c74f78",
+      "tls": {
+        "enabled": true,
+        "server_name": "xstack.mahanfixe.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/xiron",
+        "headers": {
+          "Host": "xstack.mahanfixe.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 39 - feiyu852",
+      "server": "104.21.98.146",
+      "server_port": 8443,
+      "uuid": "50414e45-4c5f-5a45-5553-48493148ec15",
+      "tls": {
+        "enabled": true,
+        "server_name": "cgzdynepurqs.mercury061.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/48493148ec15",
+        "headers": {
+          "Host": "cgzdynepurqs.mercury061.workers.dev"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 18 - feiyu852",
-      "server": "51.222.12.127",
-      "server_port": 445,
+      "tag": "🇨🇦 加拿大 (Canada) 40 - feiyu852",
+      "server": "51.222.200.165",
+      "server_port": 5000,
       "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 19 - feiyu852",
-      "server": "51.79.49.116",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 20 - feiyu852",
+      "tag": "🇨🇦 加拿大 (Canada) 41 - feiyu852",
       "server": "51.222.155.32",
       "server_port": 5003,
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 21 - feiyu852",
-      "server": "134.195.196.211",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
     },
     {
       "type": "selector",
@@ -281,7 +762,27 @@
         "🇨🇦 加拿大 (Canada) 18 - feiyu852",
         "🇨🇦 加拿大 (Canada) 19 - feiyu852",
         "🇨🇦 加拿大 (Canada) 20 - feiyu852",
-        "🇨🇦 加拿大 (Canada) 21 - feiyu852"
+        "🇨🇦 加拿大 (Canada) 21 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 22 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 23 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 24 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 25 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 26 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 27 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 28 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 29 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 30 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 31 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 32 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 33 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 34 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 35 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 36 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 37 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 38 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 39 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 40 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 41 - feiyu852"
       ]
     },
     {
@@ -308,7 +809,27 @@
         "🇨🇦 加拿大 (Canada) 18 - feiyu852",
         "🇨🇦 加拿大 (Canada) 19 - feiyu852",
         "🇨🇦 加拿大 (Canada) 20 - feiyu852",
-        "🇨🇦 加拿大 (Canada) 21 - feiyu852"
+        "🇨🇦 加拿大 (Canada) 21 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 22 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 23 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 24 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 25 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 26 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 27 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 28 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 29 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 30 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 31 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 32 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 33 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 34 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 35 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 36 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 37 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 38 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 39 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 40 - feiyu852",
+        "🇨🇦 加拿大 (Canada) 41 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
