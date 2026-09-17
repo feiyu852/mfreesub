@@ -6,51 +6,46 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
-      "server": "104.24.30.89",
-      "server_port": 443,
-      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "server": "31.58.181.88",
+      "server_port": 8443,
+      "uuid": "d0da19f1-fb05-488e-99c2-262389b3537b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
-        "insecure": true,
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "rayan-007.nastaran.dpdns.org"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
-      "server": "104.143.223.232",
-      "server_port": 2085,
-      "uuid": "12813e61-ca56-48e3-ba31-ba193368bcbf",
+      "server": "srv-21bac9.vless.monster",
+      "server_port": 2087,
+      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-21bac9.vless.monster",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ]
+      },
       "transport": {
         "type": "grpc",
-        "service_name": "vless"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
-      "server": "104.143.223.76",
-      "server_port": 2085,
-      "uuid": "12813e61-ca56-48e3-ba31-ba193368bcbf",
-      "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "service_name": "freegrpc"
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -65,28 +60,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-      "server": "31.56.189.27",
-      "server_port": 2087,
-      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv-21bac9.vless.monster",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "freegrpc"
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - feiyu852",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
       "server": "85.204.107.175",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
@@ -98,15 +73,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - feiyu852",
-      "server": "84.235.244.108",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
+      "server": "104.238.148.149",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/about?ed=2560",
         "headers": {
-          "Host": "uae.unixzone.us"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -119,9 +99,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 06 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 07 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 05 - feiyu852"
       ]
     },
     {
@@ -132,9 +110,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 06 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 07 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
