@@ -4,16 +4,47 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
+      "server": "64.225.110.247",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+      "server": "deutch.snappycore.com",
+      "server_port": 443,
+      "uuid": "8f9c5260-9456-472b-8ee2-444500ba6cab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "deutch.snappycore.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SCuasCPva4lPGu-QRP955zZB8f6i7ydHBQh6bsSlrgo",
+          "short_id": "3d87c490ddd41305"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
       "server": "msk.frkn.org",
       "server_port": 443,
       "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
@@ -21,18 +52,6 @@
         "enabled": true,
         "server_name": "msk.frkn.org",
         "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy.quattro-tech.ru",
-        "insecure": true
       }
     },
     {
@@ -55,6 +74,18 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+      "server": "ru.xiaoliyu.cyou",
+      "server_port": 4433,
+      "password": "19f72087-4591-4d72-930b-2697078ec2be",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru.xiaoliyu.cyou",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -62,7 +93,8 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852"
       ]
     },
     {
@@ -72,7 +104,8 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
