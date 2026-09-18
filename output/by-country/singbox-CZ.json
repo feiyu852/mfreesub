@@ -4,14 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 01 - feiyu852",
-      "server": "188.114.97.8",
+      "type": "trojan",
+      "tag": "🇨🇿 捷克 (Czech) 01 - feiyu852",
+      "server": "104.21.76.194",
       "server_port": 443,
-      "uuid": "513beae3-56e7-4954-a17e-930e06237b27",
+      "password": "Telegram_healer_config",
       "tls": {
         "enabled": true,
-        "server_name": "cFOi-2fX16G3-8ry2KDxMcJ.wjESV2IlA3rXBuhpC2NsUgrAChGAWk.wOrKerS.DEv",
+        "server_name": "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -23,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/FuJlzLUhMmosE6ySAHYtJDUq6XlF?ed=2560",
+        "path": "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed",
         "headers": {
-          "Host": "cfoi-2fx16g3-8ry2kdxmcj.wjesv2ila3rxbuhpc2nsugrachgawk.workers.dev"
+          "Host": "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
         }
       }
     },
@@ -34,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - feiyu852"
+        "🇨🇿 捷克 (Czech) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - feiyu852"
+        "🇨🇿 捷克 (Czech) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
