@@ -5,27 +5,20 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇨🇿 捷克 (Czech) 01 - feiyu852",
-      "server": "104.21.76.194",
+      "tag": "🌐 其他地区 (Other) 01 - feiyu852",
+      "server": "188.114.96.3",
       "server_port": 443,
-      "password": "Telegram_healer_config",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.calmlunch.com",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed",
+        "path": "/assignment",
         "headers": {
-          "Host": "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
+          "Host": "www.calmlunch.com"
         }
       }
     },
@@ -34,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
