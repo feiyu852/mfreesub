@@ -5,30 +5,41 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - feiyu852
-  server: 172.67.164.152
-  port: 443
+  server: 194.87.59.104
+  port: 2085
   udp: true
   type: vless
-  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
+  uuid: 7b07d862-b698-47c1-884b-3e7dd6c8b862
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 02 - feiyu852
+  server: 132.243.203.207
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  servername: 002.Inc-ElectROcElL-001-002.WoRKERS.DEV
-  skip-cert-verify: false
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /lives
     headers:
-      Host: 002.inc-electrocell-001-002.workers.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
 rules:
 - MATCH,PROXIES
