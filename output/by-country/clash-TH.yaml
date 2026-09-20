@@ -15,7 +15,7 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
     short-id: ca672c53fbbac555
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: edge
 - name: 🇹🇭 泰国 (Thailand) 02 - feiyu852
   server: 118.193.57.167
   port: 49667
