@@ -18,13 +18,13 @@
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
       "server": "94.183.170.147",
       "server_port": 8443,
-      "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1",
+      "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -54,20 +54,8 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852",
-      "server": "109.206.241.10",
-      "server_port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.206.241.10",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - feiyu852",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852",
       "server": "estomin1.vodniki.monster",
       "server_port": 443,
       "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
@@ -94,8 +82,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 01 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - feiyu852"
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852"
       ]
     },
     {
@@ -105,8 +92,7 @@
         "🇪🇪 爱沙尼亚 (Estonia) 01 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 05 - feiyu852"
+        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
