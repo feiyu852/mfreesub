@@ -6,30 +6,13 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-      "server": "172.64.158.146",
-      "server_port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
-      "server": "104.21.28.88",
+      "server": "146.185.178.18",
       "server_port": 443,
-      "password": "c0c17d1da2c2c9299d5094c8",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "ez-3e9698.ezaccess1ec1f0c.workers.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -37,30 +20,49 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiMDdteWJvazY4azJ3MiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "ez-3e9698.ezaccess1ec1f0c.workers.dev"
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+      "server": "64.225.110.247",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-      "server": "193.233.91.200",
-      "server_port": 443,
-      "uuid": "0cd84588-2ad1-4c69-ab82-1d3f93d5faa8",
-      "flow": "xtls-rprx-vision",
+      "server": "185.125.100.76",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.callibri.ru",
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "yCKV2xr725jI0sFhm4KbttKl8b9UZrnQTXxZLN2S4BM",
-          "short_id": "2f86"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/trade/game/movies",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -77,20 +79,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
-      "server": "msk.frkn.org",
-      "server_port": 443,
-      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
-      "tls": {
-        "enabled": true,
-        "server_name": "msk.frkn.org",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
       "server": "46.8.200.91",
       "server_port": 443,
       "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
@@ -116,8 +106,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852"
       ]
     },
     {
@@ -128,8 +117,7 @@
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
