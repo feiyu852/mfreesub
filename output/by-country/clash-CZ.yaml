@@ -5,21 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - feiyu852
-  server: 172.64.155.209
-  port: 443
+  server: 104.21.3.133
+  port: 2083
   udp: true
   type: vless
-  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
   tls: true
-  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  servername: fans.liverpool.qzz.io
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+      Host: fans.liverpool.qzz.io
 - name: 🇨🇿 捷克 (Czech) 02 - feiyu852
+  server: 153.76.185.188
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 9912a5ca-3ee1-45ac-b182-46fec2610ee0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 03 - feiyu852
   server: 153.76.185.189
   port: 3090
   udp: true
@@ -28,7 +37,16 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: 🇨🇿 捷克 (Czech) 03 - feiyu852
+- name: 🇨🇿 捷克 (Czech) 04 - feiyu852
+  server: 153.76.185.186
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 9912a5ca-3ee1-45ac-b182-46fec2610ee0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 05 - feiyu852
   server: 95.85.230.35
   port: 443
   udp: true
@@ -48,6 +66,8 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
   - 🇨🇿 捷克 (Czech) 02 - feiyu852
   - 🇨🇿 捷克 (Czech) 03 - feiyu852
+  - 🇨🇿 捷克 (Czech) 04 - feiyu852
+  - 🇨🇿 捷克 (Czech) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +76,7 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
   - 🇨🇿 捷克 (Czech) 02 - feiyu852
   - 🇨🇿 捷克 (Czech) 03 - feiyu852
+  - 🇨🇿 捷克 (Czech) 04 - feiyu852
+  - 🇨🇿 捷克 (Czech) 05 - feiyu852
 rules:
 - MATCH,PROXIES
