@@ -5,6 +5,57 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - feiyu852
+  server: 188.114.97.8
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  tls: true
+  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - feiyu852
+  server: 188.114.96.9
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  tls: true
+  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
+    headers:
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+- name: 🇨🇿 捷克 (Czech) 03 - feiyu852
+  server: 153.76.185.86
+  port: 3090
+  udp: true
+  type: vless
+  uuid: 5bcba788-5e2d-457b-8bd2-67fa99e49e0f
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇨🇿 捷克 (Czech) 04 - feiyu852
+  server: 95.182.94.186
+  port: 443
+  udp: true
+  type: vless
+  uuid: ec7a4183-3e7b-49c4-90dc-fe352e1b0ad0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fkZTYNydTBVO-1LSiTvDcyBMx-zBP5Am780jECmUgg0
+  servername: us04.mcloud.mov
+  client-fingerprint: safari
+- name: 🇨🇿 捷克 (Czech) 05 - feiyu852
   server: 95.85.230.35
   port: 443
   udp: true
@@ -15,18 +66,26 @@ proxies:
   reality-opts:
     public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
   servername: de.oblaco.bet
-  client-fingerprint: ''
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
+  - 🇨🇿 捷克 (Czech) 03 - feiyu852
+  - 🇨🇿 捷克 (Czech) 04 - feiyu852
+  - 🇨🇿 捷克 (Czech) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
+  - 🇨🇿 捷克 (Czech) 03 - feiyu852
+  - 🇨🇿 捷克 (Czech) 04 - feiyu852
+  - 🇨🇿 捷克 (Czech) 05 - feiyu852
 rules:
 - MATCH,PROXIES
