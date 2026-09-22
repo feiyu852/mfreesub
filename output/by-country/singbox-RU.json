@@ -12,29 +12,26 @@
       "tls": {
         "enabled": true,
         "server_name": "hy.quattro-tech.ru",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
-      "server": "5.129.238.144",
-      "server_port": 8443,
-      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
       "tls": {
         "enabled": true,
-        "server_name": "xinnusvpn.duckdns.org",
-        "insecure": false,
+        "server_name": "ya.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wsnl",
-        "headers": {
-          "Host": "xinnusvpn.duckdns.org"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
         }
       }
     },
@@ -60,20 +57,17 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "server": "77.110.105.102",
+      "server_port": 443,
+      "uuid": "89a0fe83-dcb3-4e3c-92ed-407fc668e7b1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ya.ru",
+        "server_name": "ru-1.brodvpn.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
+          "fingerprint": "safari"
         }
       }
     },
