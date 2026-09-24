@@ -6,7 +6,47 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - feiyu852",
-      "server": "est1313.ggisopi.su",
+      "server": "2.27.175.71",
+      "server_port": 443,
+      "uuid": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-fi.pleiades.codes",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "cdn.v1.AssetService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - feiyu852",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+          "short_id": "d368b94e275ab080"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - feiyu852",
+      "server": "83.219.97.26",
       "server_port": 443,
       "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
       "flow": "xtls-rprx-vision",
@@ -25,36 +65,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-      "server": "185.79.138.71",
-      "server_port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-          "short_id": "cd21e552537c7c0b"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - feiyu852",
-      "server": "iq5ny.pleiades.codes",
-      "server_port": 8443,
-      "password": "0dca2cfe-98eb-4f9d-9a47-cf87510c558b",
-      "tls": {
-        "enabled": true,
-        "server_name": "iq5ny.pleiades.codes",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - feiyu852",
+      "server": "p1tun3.greewebservices.ir",
+      "server_port": 2070,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cVvgP0Bz69hsErPBvqKbwQ"
     },
     {
       "type": "selector",
@@ -63,7 +79,8 @@
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
         "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
+        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
       ]
     },
     {
@@ -72,7 +89,8 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
         "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
+        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
