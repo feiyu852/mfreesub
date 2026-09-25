@@ -6,6 +6,31 @@
     {
       "type": "vless",
       "tag": "🇸🇬 新加坡 (Singapore) 01 - feiyu852",
+      "server": "188.114.97.8",
+      "server_port": 8443,
+      "uuid": "d4d2d3f3-9dec-4e8f-8daf-145ecac96e66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "crimson-leaf-7e45.hzhduuebfjdcb.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 02 - feiyu852",
       "server": "104.17.3.81",
       "server_port": 443,
       "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
@@ -28,39 +53,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 02 - feiyu852",
-      "server": "104.19.164.155",
-      "server_port": 2083,
-      "uuid": "532a9115-aee7-4d39-9638-1e5146de075b",
-      "tls": {
-        "enabled": true,
-        "server_name": "muddy-math-c1fc.tmpnriqueau89.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇸🇬 新加坡 (Singapore) 03 - feiyu852",
-      "server": "188.114.96.0",
-      "server_port": 443,
-      "password": "f88f080e9b4f66c6",
+      "server": "79.137.199.52",
+      "server_port": 21,
+      "uuid": "763e2ddd-c830-4f4f-801c-f6f2c3418d4f",
       "tls": {
         "enabled": true,
-        "server_name": "oPEN-39.avl-a47261.WoRKeRs.dev",
+        "server_name": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -68,9 +68,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/Mg56mvTz944kOMHGyd2UYtG?ed=2560",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "open-39.avl-a47261.workers.dev"
+          "Host": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
         }
       }
     },
@@ -83,12 +83,12 @@
       "security": "auto"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇸🇬 新加坡 (Singapore) 05 - feiyu852",
-      "server": "158.178.229.235",
-      "server_port": 56927,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "4nphreJpAUpxvkVQmO2l37kEup8qRu7pcSYU0JbJLVM="
+      "server": "149.88.23.207",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
       "type": "vmess",
@@ -99,8 +99,28 @@
       "security": "auto"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇸🇬 新加坡 (Singapore) 07 - feiyu852",
+      "server": "158.178.229.235",
+      "server_port": 56927,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "4nphreJpAUpxvkVQmO2l37kEup8qRu7pcSYU0JbJLVM="
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇬 新加坡 (Singapore) 08 - feiyu852",
+      "server": "138.2.73.238",
+      "server_port": 50160,
+      "password": "f87376e17da040ed04c9665ce8972930",
+      "tls": {
+        "enabled": true,
+        "server_name": "138.2.73.238",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 09 - feiyu852",
       "server": "206.206.76.75",
       "server_port": 443,
       "uuid": "1e3d3634-36ac-43ac-a439-9665d885238f",
@@ -118,35 +138,6 @@
           "short_id": "9930177816ab09da"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 08 - feiyu852",
-      "server": "146.235.16.130",
-      "server_port": 19825,
-      "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sg2-8sb.6121999.dpdns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 新加坡 (Singapore) 09 - feiyu852",
-      "server": "ww11.levikogjgfdd.ir",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
     },
     {
       "type": "vless",
@@ -170,41 +161,8 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇸🇬 新加坡 (Singapore) 11 - feiyu852",
-      "server": "138.2.73.238",
-      "server_port": 50160,
-      "password": "f87376e17da040ed04c9665ce8972930",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 12 - feiyu852",
-      "server": "3.0.111.82",
-      "server_port": 12972,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 13 - feiyu852",
       "server": "3.0.111.82",
       "server_port": 10574,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
@@ -225,50 +183,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 14 - feiyu852",
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "tag": "🇸🇬 新加坡 (Singapore) 12 - feiyu852",
+      "server": "146.235.16.130",
+      "server_port": 19825,
+      "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "sg2-8sb.6121999.dpdns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
+          "public_key": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
+          "short_id": "6ba85179e30d4fc2"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 15 - feiyu852",
-      "server": "116.251.217.65",
-      "server_port": 443,
-      "uuid": "2388e166-3890-33ae-f77e-efac00000002",
-      "tls": {
-        "enabled": true,
-        "server_name": "netlivpn4813.ddhshhshs.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-        "headers": {
-          "Host": "netlivpn4813.ddhshhshs.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 16 - feiyu852",
+      "tag": "🇸🇬 新加坡 (Singapore) 13 - feiyu852",
       "server": "46.137.202.178",
       "server_port": 12512,
       "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150",
@@ -278,7 +214,7 @@
         "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -289,7 +225,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 新加坡 (Singapore) 17 - feiyu852",
+      "tag": "🇸🇬 新加坡 (Singapore) 14 - feiyu852",
+      "server": "3.0.111.82",
+      "server_port": 12972,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 15 - feiyu852",
       "server": "91.193.58.108",
       "server_port": 2096,
       "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
@@ -307,6 +264,49 @@
         "path": "/free-server.techsonic.dev",
         "headers": {
           "Host": "free-server.techsonic.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 16 - feiyu852",
+      "server": "217.217.254.126",
+      "server_port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+          "short_id": "87829de0e2bb82cb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇬 新加坡 (Singapore) 17 - feiyu852",
+      "server": "116.251.217.65",
+      "server_port": 443,
+      "uuid": "2388e166-3890-33ae-f77e-efac00000002",
+      "tls": {
+        "enabled": true,
+        "server_name": "netlivpn4813.ddhshhshs.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+        "headers": {
+          "Host": "netlivpn4813.ddhshhshs.workers.dev"
         }
       }
     },

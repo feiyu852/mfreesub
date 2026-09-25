@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇪🇸 西班牙 (Spain) 01 - feiyu852",
+      "server": "66.163.118.73",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto"
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -14,7 +22,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -24,28 +32,12 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
-      "server": "66.163.118.73",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - feiyu852",
-      "server": "31.56.222.61",
-      "server_port": 45286,
-      "uuid": "79251d3c-aabc-475c-b598-67263479b382"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇪🇸 西班牙 (Spain) 01 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 02 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 03 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 02 - feiyu852"
       ]
     },
     {
@@ -53,8 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇪🇸 西班牙 (Spain) 01 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 02 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 03 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 02 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
