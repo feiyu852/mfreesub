@@ -5,28 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
-  server: 91.240.86.70
-  port: 22443
-  udp: true
-  type: hysteria2
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  sni: hy.quattro-tech.ru
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
-  server: 46.8.200.91
+  server: 104.17.147.22
   port: 443
   udp: true
-  type: vless
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  tls: true
-  servername: cf3.rumedia-cdn.com
+  type: trojan
+  password: f88f080e9b4f66c6
+  sni: Open-39.avL-a47261.worKErS.Dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+    path: /tr/RIe4tZSAV4RjTfHKZ24cX27AmBg0?ed=2560
+- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   server: 138.124.121.233
   port: 443
   udp: true
@@ -39,6 +28,29 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  server: 91.240.86.70
+  port: 22443
+  udp: true
+  type: hysteria2
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: itsallproxy.quattro-tech.ru
+  skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  server: 217.19.122.65
+  port: 443
+  udp: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  tls: true
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: fbsv6.guardora.pro
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +59,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,5 +68,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
 rules:
 - MATCH,PROXIES
