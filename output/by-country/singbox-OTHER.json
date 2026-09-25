@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - feiyu852",
-      "server": "8.47.69.9",
+      "tag": "🌐 其他地区 (Other) 01 - feiyu852",
+      "server": "104.18.15.103",
       "server_port": 443,
-      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
+      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
         "enabled": true,
-        "server_name": "ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV",
+        "server_name": "server9.9966338.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/imnotarealherox",
         "headers": {
-          "Host": "ancient-heart-60c5.dpccgizieb.workers.dev"
+          "Host": "server9.9966338.xyz"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
