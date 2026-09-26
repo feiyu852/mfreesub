@@ -31,6 +31,19 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: qItG8SueYQcP
 - name: 🇪🇸 西班牙 (Spain) 04 - feiyu852
+  server: 87.76.179.117
+  port: 7443
+  udp: true
+  type: vless
+  uuid: cb15d1b0-e48b-4c4c-b98a-fa1103aa3723
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  servername: www.samsung.com
+  client-fingerprint: firefox
+- name: 🇪🇸 西班牙 (Spain) 05 - feiyu852
   server: esbe.vihodest.net
   port: 443
   udp: true
@@ -52,6 +65,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
   - 🇪🇸 西班牙 (Spain) 03 - feiyu852
   - 🇪🇸 西班牙 (Spain) 04 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -61,5 +75,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
   - 🇪🇸 西班牙 (Spain) 03 - feiyu852
   - 🇪🇸 西班牙 (Spain) 04 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 05 - feiyu852
 rules:
 - MATCH,PROXIES
