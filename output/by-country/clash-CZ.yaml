@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - feiyu852
+  server: 188.114.97.3
+  port: 443
+  udp: true
+  type: trojan
+  password: Telegram_healer_config
+  sni: 6M1RGyIeClMRx9hef1.z6-0HlnubjIbWZpa85.wOrKerS.DEv
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tr/ox5zBiRQjs2Rscy0XwxXY2ZzE?ed=2560
+- name: 🇨🇿 捷克 (Czech) 02 - feiyu852
   server: 13.143.181.220
   port: 443
   udp: true
@@ -22,11 +33,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
+  - 🇨🇿 捷克 (Czech) 02 - feiyu852
 rules:
 - MATCH,PROXIES

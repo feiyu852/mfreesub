@@ -4,8 +4,34 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - feiyu852",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "password": "Telegram_healer_config",
+      "tls": {
+        "enabled": true,
+        "server_name": "6M1RGyIeClMRx9hef1.z6-0HlnubjIbWZpa85.wOrKerS.DEv",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/ox5zBiRQjs2Rscy0XwxXY2ZzE?ed=2560",
+        "headers": {
+          "Host": "6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - feiyu852",
       "server": "13.143.181.220",
       "server_port": 443,
       "uuid": "7a8d2c3f-d6dd-0004-81d8-cff23d8364ee",
@@ -29,14 +55,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - feiyu852"
+        "🇨🇿 捷克 (Czech) 01 - feiyu852",
+        "🇨🇿 捷克 (Czech) 02 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - feiyu852"
+        "🇨🇿 捷克 (Czech) 01 - feiyu852",
+        "🇨🇿 捷克 (Czech) 02 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

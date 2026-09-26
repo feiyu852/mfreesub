@@ -28,13 +28,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
-      "server": "94.183.170.135",
+      "server": "217.60.182.79",
       "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws"
+      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
+      "tls": {
+        "enabled": true,
+        "server_name": "cabinet.wwwinternetvideo.click",
+        "insecure": false
       }
     },
     {
@@ -54,26 +56,13 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852",
-      "server": "217.60.182.79",
-      "server_port": 443,
-      "password": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-      "tls": {
-        "enabled": true,
-        "server_name": "cabinet.wwwinternetvideo.click",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇪🇪 爱沙尼亚 (Estonia) 01 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852"
       ]
     },
     {
@@ -82,8 +71,7 @@
       "outbounds": [
         "🇪🇪 爱沙尼亚 (Estonia) 01 - feiyu852",
         "🇪🇪 爱沙尼亚 (Estonia) 02 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852",
-        "🇪🇪 爱沙尼亚 (Estonia) 04 - feiyu852"
+        "🇪🇪 爱沙尼亚 (Estonia) 03 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -43,6 +43,26 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
     short-id: 29e8dcd2b37aaa7f
   servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇪🇸 西班牙 (Spain) 05 - feiyu852
+  server: 108.181.121.226
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: WSyL4XTwNsdv
+- name: 🇪🇸 西班牙 (Spain) 06 - feiyu852
+  server: esbe.vihodest.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: 88956de8-38db-449c-8410-4b70a4fb5c9b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ihEweXseofZYKT-AB6cTtQ1IlXgC3a7HHAsi-o50yFE
+    short-id: e93196a756abca09
+  servername: esbe.vihodest.net
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
@@ -53,6 +73,8 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
   - 🇪🇸 西班牙 (Spain) 03 - feiyu852
   - 🇪🇸 西班牙 (Spain) 04 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 05 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 06 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +84,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
   - 🇪🇸 西班牙 (Spain) 03 - feiyu852
   - 🇪🇸 西班牙 (Spain) 04 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 05 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 06 - feiyu852
 rules:
 - MATCH,PROXIES
