@@ -4,25 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - feiyu852",
-      "server": "45.164.20.85",
-      "server_port": 10226,
-      "uuid": "9aab8f39-ccb3-44ea-acdc-a8aefe211287"
+      "type": "shadowsocks",
+      "tag": "🇳🇴 挪威 (Norway) 01 - feiyu852",
+      "server": "139.100.236.74",
+      "server_port": 1,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WxYpOK1iPSJySbVNMMJDtw"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - feiyu852"
+        "🇳🇴 挪威 (Norway) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - feiyu852"
+        "🇳🇴 挪威 (Norway) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
