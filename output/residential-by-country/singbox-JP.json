@@ -5,24 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - feiyu852",
-      "server": "cf.877774.xyz",
-      "server_port": 443,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - feiyu852",
+      "server": "84.22.150.39",
+      "server_port": 7443,
+      "uuid": "9d5cbb90-876b-448d-9874-27ab35bae6e7",
       "tls": {
         "enabled": true,
-        "server_name": "yf.962456.xyz",
+        "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyip=kr.william.us.ci",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "yf.962456.xyz"
+          "Host": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - feiyu852"
+        "🇯🇵 日本 (Japan) 01 (家宽) - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - feiyu852"
+        "🇯🇵 日本 (Japan) 01 (家宽) - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
