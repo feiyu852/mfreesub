@@ -4,8 +4,36 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - feiyu852",
+      "server": "172.64.158.146",
+      "server_port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
+      "server": "108.162.198.178",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852",
       "server": "213.183.63.60",
       "server_port": 9030,
       "method": "aes-256-cfb",
@@ -13,11 +41,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - feiyu852",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "selector",
@@ -25,7 +53,9 @@
       "outbounds": [
         "auto",
         "🇧🇬 保加利亚 (Bulgaria) 01 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - feiyu852"
       ]
     },
     {
@@ -33,7 +63,9 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇬 保加利亚 (Bulgaria) 01 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
+        "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852",
+        "🇧🇬 保加利亚 (Bulgaria) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

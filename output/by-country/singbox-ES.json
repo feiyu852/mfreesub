@@ -12,16 +12,8 @@
       "security": "auto"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
-      "server": "140.174.184.5",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - feiyu852",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
       "server": "185.174.137.172",
       "server_port": 8446,
       "password": "e9dc02d400b67c727aca1620",
@@ -33,7 +25,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - feiyu852",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - feiyu852",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -42,7 +34,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -53,28 +45,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - feiyu852",
-      "server": "108.181.121.226",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - feiyu852",
+      "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - feiyu852",
-      "server": "mygptagent.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "mygptagent.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws"
-      }
+      "password": "qItG8SueYQcP"
     },
     {
       "type": "selector",
@@ -84,9 +59,7 @@
         "🇪🇸 西班牙 (Spain) 01 - feiyu852",
         "🇪🇸 西班牙 (Spain) 02 - feiyu852",
         "🇪🇸 西班牙 (Spain) 03 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 04 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 05 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 06 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 04 - feiyu852"
       ]
     },
     {
@@ -96,9 +69,7 @@
         "🇪🇸 西班牙 (Spain) 01 - feiyu852",
         "🇪🇸 西班牙 (Spain) 02 - feiyu852",
         "🇪🇸 西班牙 (Spain) 03 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 04 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 05 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 06 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
