@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - feiyu852
-  server: 188.114.97.6
-  port: 2086
+  server: 104.21.69.37
+  port: 443
   udp: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  tls: true
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /vl/uWq9DFRgj8BwQiSXmZ46
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - feiyu852
   server: 3.9.135.156
   port: 51847
@@ -27,7 +31,7 @@ proxies:
     public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
     short-id: 0eec442e7b34d2f2
   servername: www.tesla.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
