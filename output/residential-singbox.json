@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-      "server": "162.159.0.169",
-      "server_port": 2052,
+      "server": "172.64.158.146",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -38,21 +38,12 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - feiyu852",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16116,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852"
       ]
     },
     {
@@ -60,8 +51,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

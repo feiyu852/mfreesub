@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - feiyu852
-  server: 194.195.123.60
-  port: 22368
-  udp: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM
-    short-id: b5a3
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 (Australia) 02 - feiyu852
   server: 143.42.46.37
   port: 25605
   udp: true
@@ -30,7 +17,7 @@ proxies:
     short-id: 6df42a2c
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇦🇺 澳大利亚 (Australia) 03 - feiyu852
+- name: 🇦🇺 澳大利亚 (Australia) 02 - feiyu852
   server: 51.161.204.244
   port: 443
   udp: true
@@ -42,7 +29,50 @@ proxies:
     public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
     short-id: 0ad08b47f498efd2
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 03 - feiyu852
+  server: 172.67.167.77
+  port: 443
+  udp: true
+  type: vless
+  uuid: cc08d2d0-8a7a-4469-81d2-c43704451271
+  tls: true
+  servername: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/6871nrbnl9WsdAiOUInt
+    headers:
+      Host: 9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev
+- name: 🇦🇺 澳大利亚 (Australia) 04 - feiyu852
+  server: 194.195.123.60
+  port: 22368
+  udp: true
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JJsjBS60tj6uZp-x2tMJ_ioblXRcru_apACEkMJYnBM
+    short-id: b5a3
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 05 - feiyu852
+  server: 172.67.151.77
+  port: 443
+  udp: true
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000000
+  tls: true
+  servername: nahan-core.fatitelegram.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.fatitelegram.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,6 +81,8 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - feiyu852
   - 🇦🇺 澳大利亚 (Australia) 02 - feiyu852
   - 🇦🇺 澳大利亚 (Australia) 03 - feiyu852
+  - 🇦🇺 澳大利亚 (Australia) 04 - feiyu852
+  - 🇦🇺 澳大利亚 (Australia) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,5 +91,7 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - feiyu852
   - 🇦🇺 澳大利亚 (Australia) 02 - feiyu852
   - 🇦🇺 澳大利亚 (Australia) 03 - feiyu852
+  - 🇦🇺 澳大利亚 (Australia) 04 - feiyu852
+  - 🇦🇺 澳大利亚 (Australia) 05 - feiyu852
 rules:
 - MATCH,PROXIES
