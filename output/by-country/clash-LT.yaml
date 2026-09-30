@@ -12,18 +12,12 @@ proxies:
   cipher: aes-256-cfb
   password: xaupMUvhptwxdDUg
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - feiyu852
-  server: lithuania-2.kochvpn.pw
-  port: 443
+  server: 195.238.126.20
+  port: 9011
   udp: true
-  type: vless
-  uuid: 2923fef2-3b52-a9c2-cde4-c2343eb74a2c
-  tls: true
-  servername: lithuania-2.kochvpn.pw
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /stream/ws
+  type: ss
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - feiyu852
   server: 94.176.234.161
   port: 443
