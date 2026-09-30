@@ -4,25 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-      "server": "139.28.168.201",
-      "server_port": 443,
-      "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "china.letsconnectpoint.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
-          "short_id": "3b74d85e"
-        }
-      }
+      "server": "195.58.48.137",
+      "server_port": 20999,
+      "method": "aes-256-gcm",
+      "password": "8ad9d72a5571df86"
     },
     {
       "type": "shadowsocks",
@@ -40,13 +27,34 @@
       "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
       "tls": {
         "enabled": true,
-        "server_name": "hy.quattro-tech.ru",
-        "insecure": false
+        "server_name": "91.240.86.70",
+        "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+      "server": "139.28.168.201",
+      "server_port": 443,
+      "uuid": "a368752a-32fc-42f3-980a-6b049218b23f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "china.letsconnectpoint.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI",
+          "short_id": "3b74d85e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
       "server": "45.12.75.242",
       "server_port": 26424,
       "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
@@ -65,6 +73,18 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
+      "server": "srv-17e124.21freedom.net",
+      "server_port": 11592,
+      "password": "41edb44c8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-17e124.21freedom.net",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -72,7 +92,9 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
       ]
     },
     {
@@ -82,7 +104,9 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
