@@ -4,25 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - feiyu852",
-      "server": "177.3.209.65",
+      "server": "51.20.96.231",
       "server_port": 443,
-      "uuid": "bcd1dab9-24f2-4002-b3ee-cd6f7072deba",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "got.bridge.iplnte.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1he5EyHxI595x0mNkFNxOebUOQZGVGIy_c92bn1qO2o",
-          "short_id": "ac31827454d7f693"
-        }
-      }
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "type": "vless",
@@ -35,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,

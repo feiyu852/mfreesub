@@ -4,33 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 巴西 (Brazil) 01 - feiyu852
-  server: aksai.org
-  port: 443
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
+  server: hi.northcluster.info
+  port: 52300
   udp: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 6e571484-4166-4699-8f58-b34a1823691f
   alterId: 0
   cipher: auto
-  tls: true
-  servername: aksai.org
-  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /video
     headers:
-      Host: aksai.org
+      Host: hi.northcluster.info
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 巴西 (Brazil) 01 - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 巴西 (Brazil) 01 - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
 rules:
 - MATCH,PROXIES
