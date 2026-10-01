@@ -5,52 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - feiyu852
-  server: 45.192.12.93
-  port: 443
-  udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 02 - feiyu852
-  server: 144.31.131.38
-  port: 443
-  udp: true
-  type: vless
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  servername: prod.pl-node-01.security-sbrf.ru
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 03 - feiyu852
-  server: 95.85.253.202
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4314a583-3a39-45e1-883e-70bf570d252a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
-  servername: pl0001.kubservice.icu
-  client-fingerprint: qq
-- name: 🇵🇱 波兰 (Poland) 04 - feiyu852
-  server: 83.168.95.145
-  port: 443
-  udp: true
-  type: vless
-  uuid: 82f37352-85e5-49bb-9edc-a80997065659
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
-    short-id: d345ad4657adeef9
-  servername: google.com
-  client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 05 - feiyu852
   server: 149.86.227.16
   port: 443
   udp: true
@@ -63,23 +17,35 @@ proxies:
     short-id: 6c6082a2223c1d03
   servername: pmv.raketa-balance.com
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 06 - feiyu852
-  server: scrap.halyvanedorogo.ru
-  port: 35076
+- name: 🇵🇱 波兰 (Poland) 02 - feiyu852
+  server: 95.85.253.202
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4314a583-3a39-45e1-883e-70bf570d252a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  servername: pl0001.kubservice.icu
+  client-fingerprint: qq
+- name: 🇵🇱 波兰 (Poland) 03 - feiyu852
+  server: admin.wwwinternetvideo.click
+  port: 443
   udp: true
   type: hysteria2
-  password: b4c8ee9caa74b7ba0a61
-  sni: scrap.halyvanedorogo.ru
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  sni: admin.wwwinternetvideo.click
   skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 07 - feiyu852
+- name: 🇵🇱 波兰 (Poland) 04 - feiyu852
   server: cheerful-swan.rooster465.autos
   port: 443
   udp: true
   type: trojan
   password: UX82473651
   sni: cheerful-swan.rooster465.autos
-  skip-cert-verify: true
-- name: 🇵🇱 波兰 (Poland) 08 - feiyu852
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 05 - feiyu852
   server: pl-waw.dontblockmepls.com
   port: 2063
   udp: true
@@ -91,19 +57,32 @@ proxies:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
   servername: rusbid.de
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 09 - feiyu852
-  server: 188.114.96.19
-  port: 80
+- name: 🇵🇱 波兰 (Poland) 06 - feiyu852
+  server: 83.168.95.145
+  port: 443
   udp: true
-  type: vmess
-  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+  type: vless
+  uuid: 82f37352-85e5-49bb-9edc-a80997065659
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg
+    short-id: d345ad4657adeef9
+  servername: google.com
+  client-fingerprint: ''
+- name: 🇵🇱 波兰 (Poland) 07 - feiyu852
+  server: 144.31.131.38
+  port: 443
+  udp: true
+  type: vless
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  servername: prod.pl-node-01.security-sbrf.ru
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -116,8 +95,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - feiyu852
   - 🇵🇱 波兰 (Poland) 06 - feiyu852
   - 🇵🇱 波兰 (Poland) 07 - feiyu852
-  - 🇵🇱 波兰 (Poland) 08 - feiyu852
-  - 🇵🇱 波兰 (Poland) 09 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -130,7 +107,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - feiyu852
   - 🇵🇱 波兰 (Poland) 06 - feiyu852
   - 🇵🇱 波兰 (Poland) 07 - feiyu852
-  - 🇵🇱 波兰 (Poland) 08 - feiyu852
-  - 🇵🇱 波兰 (Poland) 09 - feiyu852
 rules:
 - MATCH,PROXIES

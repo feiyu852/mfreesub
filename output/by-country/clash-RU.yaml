@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
-  server: china.letsconnectpoint.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 914f3806-07a1-4158-9624-e183de065a38
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
-    short-id: 3b74d85e
-  servername: china.letsconnectpoint.com
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   server: 194.113.235.66
   port: 443
   udp: true
@@ -30,15 +17,7 @@ proxies:
     short-id: 9e4eced6e98ed4d4
   servername: github.com
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
-  server: els.mangshe.xyz
-  port: 2060
-  udp: true
-  type: hysteria2
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: els.mangshe.xyz
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   server: 91.240.86.70
   port: 22443
   udp: true
@@ -46,6 +25,33 @@ proxies:
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   sni: 91.240.86.70
   skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  server: 139.28.168.201
+  port: 443
+  udp: true
+  type: vless
+  uuid: a368752a-32fc-42f3-980a-6b049218b23f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  servername: china.letsconnectpoint.com
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  server: 45.132.177.96
+  port: 9889
+  udp: true
+  type: vless
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  tls: true
+  reality-opts:
+    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+  servername: dl.google.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
   server: 78.159.246.110
   port: 443
@@ -61,20 +67,6 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
-- name: 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
-  server: germany.tofreedom.ru
-  port: 8444
-  udp: true
-  type: vless
-  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
-  tls: true
-  servername: germany.tofreedom.ru
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /c7f5317cd04691bc
-    headers:
-      Host: germany.tofreedom.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,7 +77,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -96,6 +87,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 rules:
 - MATCH,PROXIES
