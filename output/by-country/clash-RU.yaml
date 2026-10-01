@@ -5,28 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
-  server: 195.58.48.137
-  port: 20999
+  server: srv-17e124.21freedom.net
+  port: 11592
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw=
-- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   server: 91.240.86.70
   port: 22443
   udp: true
   type: hysteria2
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  sni: 91.240.86.70
+  sni: itsallproxy.quattro-tech.ru
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   server: 139.28.168.201
   port: 443
   udp: true
@@ -39,7 +33,7 @@ proxies:
     short-id: 3b74d85e
   servername: china.letsconnectpoint.com
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
+- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
   server: 45.12.75.242
   port: 26424
   udp: true
@@ -51,14 +45,6 @@ proxies:
     short-id: 23103e1e
   servername: ya.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
-  server: srv-17e124.21freedom.net
-  port: 11592
-  udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,8 +54,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,7 +63,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 rules:
 - MATCH,PROXIES
