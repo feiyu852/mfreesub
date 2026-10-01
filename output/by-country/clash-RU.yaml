@@ -5,27 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
-  server: 194.113.235.66
-  port: 443
+  server: 195.133.23.200
+  port: 20998
   udp: true
-  type: vless
-  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: 9e4eced6e98ed4d4
-  servername: github.com
-  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
 - name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
-  server: 91.240.86.70
-  port: 22443
-  udp: true
-  type: hysteria2
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  sni: 91.240.86.70
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
   server: 139.28.168.201
   port: 443
   udp: true
@@ -37,23 +23,9 @@ proxies:
     public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
     short-id: 3b74d85e
   servername: china.letsconnectpoint.com
-  client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  server: 45.132.177.96
-  port: 9889
-  udp: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  tls: true
-  reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  servername: dl.google.com
   client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
-  server: 78.159.246.110
+- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  server: 217.19.122.200
   port: 443
   udp: true
   type: vless
@@ -75,8 +47,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,7 +55,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
 rules:
 - MATCH,PROXIES
