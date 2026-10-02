@@ -5,27 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
+  server: 104.21.70.223
+  port: 443
+  udp: true
+  type: vless
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  tls: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/ERYN0G44hia16zhR
+    headers:
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   server: 195.133.23.200
   port: 20998
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 81a20429165df87e
-- name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
-  server: 139.28.168.201
-  port: 443
-  udp: true
-  type: vless
-  uuid: a368752a-32fc-42f3-980a-6b049218b23f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
-    short-id: 3b74d85e
-  servername: china.letsconnectpoint.com
-  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
-  server: 217.19.122.200
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: IcovoXEMyjfGjN9RenzKs0/iPaZ3vtk9fkxJ0s/R5vw=
+- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  server: 78.159.246.110
   port: 443
   udp: true
   type: vless
@@ -39,6 +48,29 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
+  server: 139.28.168.201
+  port: 443
+  udp: true
+  type: vless
+  uuid: 914f3806-07a1-4158-9624-e183de065a38
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  servername: china.letsconnectpoint.com
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
+  server: hk1.xt-game.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 49c8e76e-7e52-426a-8669-51d93c7a6d12
+  flow: xtls-rprx-vision
+  tls: true
+  servername: hk1.xt-game.top
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +79,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,5 +90,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
 rules:
 - MATCH,PROXIES
