@@ -5,25 +5,25 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 01 - feiyu852",
-      "server": "195.238.126.20",
-      "server_port": 9001,
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - feiyu852",
+      "server": "185.135.86.175",
+      "server_port": 9017,
       "method": "aes-256-cfb",
-      "password": "UkXRsXvR6buDMG2Y"
+      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - feiyu852"
+        "🇱🇻 拉脱维亚 (Latvia) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - feiyu852"
+        "🇱🇻 拉脱维亚 (Latvia) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
