@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - feiyu852
+  server: 104.18.34.21
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+  tls: true
+  servername: socks5.revil-time3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /socks5://128.140.46.169:13482
+    headers:
+      Host: socks5.revil-time3.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - feiyu852
   server: 85.117.235.50
   port: 443
   udp: true
@@ -17,7 +32,7 @@ proxies:
     short-id: 232b1b09e45325a4
   servername: cz1.animeteka.info
   client-fingerprint: ''
-- name: 🇨🇿 捷克 (Czech) 02 - feiyu852
+- name: 🇨🇿 捷克 (Czech) 03 - feiyu852
   server: 153.76.190.41
   port: 8443
   udp: true
@@ -32,6 +47,7 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
   - 🇨🇿 捷克 (Czech) 02 - feiyu852
+  - 🇨🇿 捷克 (Czech) 03 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +55,6 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - feiyu852
   - 🇨🇿 捷克 (Czech) 02 - feiyu852
+  - 🇨🇿 捷克 (Czech) 03 - feiyu852
 rules:
 - MATCH,PROXIES
