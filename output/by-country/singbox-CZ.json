@@ -6,23 +6,20 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - feiyu852",
-      "server": "104.18.34.21",
-      "server_port": 8443,
-      "uuid": "656bb400-3b7a-47e3-94b0-0362f3865072",
+      "server": "86.54.82.184",
+      "server_port": 443,
+      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
       "tls": {
         "enabled": true,
-        "server_name": "socks5.revil-time3.workers.dev",
-        "insecure": false,
+        "server_name": "example.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/socks5://128.140.46.169:13482",
-        "headers": {
-          "Host": "socks5.revil-time3.workers.dev"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+          "short_id": ""
         }
       }
     },
@@ -48,25 +45,12 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇿 捷克 (Czech) 03 - feiyu852",
-      "server": "153.76.190.41",
-      "server_port": 8443,
-      "password": "3a92b39a-5f02-415e-a908-783ec320e83f",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtestmark.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - feiyu852",
-        "🇨🇿 捷克 (Czech) 02 - feiyu852",
-        "🇨🇿 捷克 (Czech) 03 - feiyu852"
+        "🇨🇿 捷克 (Czech) 02 - feiyu852"
       ]
     },
     {
@@ -74,8 +58,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - feiyu852",
-        "🇨🇿 捷克 (Czech) 02 - feiyu852",
-        "🇨🇿 捷克 (Czech) 03 - feiyu852"
+        "🇨🇿 捷克 (Czech) 02 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

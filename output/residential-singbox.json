@@ -5,54 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-      "server": "108.162.198.178",
-      "server_port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 (家宽) - feiyu852",
-      "server": "162.159.153.4",
-      "server_port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "tls": {
-        "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852",
-      "server": "9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "3be8cba8-b721-11ec-8b04-f23c91cfbbc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "9969bb96-tmm5c0-twuk0i-1hzyr.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
       "server": "118.167.235.241",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -72,8 +25,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - feiyu852",
-      "server": "test.keoplentuio.xyz",
+      "tag": "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - feiyu852",
+      "server": "178.83.46.216",
       "server_port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
@@ -82,22 +35,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-        "🇬🇧 英国 (United Kingdom) 02 (家宽) - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852",
-        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - feiyu852",
-        "🇬🇧 英国 (United Kingdom) 02 (家宽) - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852",
-        "🇹🇷 土耳其 (Turkey) 05 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
+        "🇹🇷 土耳其 (Turkey) 02 (移动家宽) - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
