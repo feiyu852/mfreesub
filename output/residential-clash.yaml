@@ -4,38 +4,16 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (移动家宽) - feiyu852
-  server: 162.159.48.32
-  port: 2086
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸 美国 (United States) 02 (家宽) - feiyu852
-  server: 162.159.0.53
-  port: 8880
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852
-  server: ae410052-tmm5c0-tsdg75-tlhh.nw4.hyhuawei.com
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
+  server: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  sni: ae410052-tmm5c0-tsdg75-tlhh.nw4.hyhuawei.com
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  sni: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852
-  server: 172.66.152.4
+- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
+  server: 104.20.36.205
   port: 443
   udp: true
   type: vless
@@ -48,23 +26,32 @@ proxies:
     path: /e8e2cecb6188f7fb
     headers:
       Host: argo6.5671234.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
+  server: hinet1.2yly.com
+  port: 24215
+  udp: true
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - feiyu852
-  - 🇺🇸 美国 (United States) 02 (家宽) - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - feiyu852
-  - 🇺🇸 美国 (United States) 02 (家宽) - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - feiyu852
+  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
 rules:
 - MATCH,PROXIES

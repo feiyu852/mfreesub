@@ -6,33 +6,22 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - feiyu852",
-      "server": "50.7.249.155",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "poland-good.failspace.top",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+      "server": "70.34.252.154",
+      "server_port": 80,
+      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
+      "transport": {
+        "type": "ws"
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - feiyu852",
-      "server": "cheerful-swan.rooster465.autos",
-      "server_port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": false
+      "server": "70.34.255.101",
+      "server_port": 80,
+      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -58,6 +47,38 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 04 - feiyu852",
+      "server": "50.7.249.155",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "poland-good.failspace.top",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 05 - feiyu852",
+      "server": "202.78.163.237",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 06 - feiyu852",
       "server": "50.7.249.98",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -77,29 +98,14 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 05 - feiyu852",
+      "tag": "🇵🇱 波兰 (Poland) 07 - feiyu852",
       "server": "144.31.49.47",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 06 - feiyu852",
-      "server": "188.114.96.19",
-      "server_port": 80,
-      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
+        "insecure": false
       }
     },
     {
@@ -112,7 +118,8 @@
         "🇵🇱 波兰 (Poland) 03 - feiyu852",
         "🇵🇱 波兰 (Poland) 04 - feiyu852",
         "🇵🇱 波兰 (Poland) 05 - feiyu852",
-        "🇵🇱 波兰 (Poland) 06 - feiyu852"
+        "🇵🇱 波兰 (Poland) 06 - feiyu852",
+        "🇵🇱 波兰 (Poland) 07 - feiyu852"
       ]
     },
     {
@@ -124,7 +131,8 @@
         "🇵🇱 波兰 (Poland) 03 - feiyu852",
         "🇵🇱 波兰 (Poland) 04 - feiyu852",
         "🇵🇱 波兰 (Poland) 05 - feiyu852",
-        "🇵🇱 波兰 (Poland) 06 - feiyu852"
+        "🇵🇱 波兰 (Poland) 06 - feiyu852",
+        "🇵🇱 波兰 (Poland) 07 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
