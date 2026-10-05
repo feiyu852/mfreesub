@@ -4,29 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇳 印度 (India) 01 - feiyu852
-  server: 65.20.80.141
+- name: 🇬🇷 希腊 (Greece) 01 - feiyu852
+  server: 157.228.150.34
   port: 443
   udp: true
   type: vless
-  uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ
-  servername: googleapis.com
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  servername: addons.mozilla.org
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇳 印度 (India) 01 - feiyu852
+  - 🇬🇷 希腊 (Greece) 01 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇳 印度 (India) 01 - feiyu852
+  - 🇬🇷 希腊 (Greece) 01 - feiyu852
 rules:
 - MATCH,PROXIES
