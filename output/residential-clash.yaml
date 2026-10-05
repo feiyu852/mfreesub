@@ -4,16 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
-  server: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  sni: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
-  server: 104.20.36.205
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
+  server: 45.192.201.140
   port: 443
   udp: true
   type: vless
@@ -21,37 +13,40 @@ proxies:
   tls: true
   servername: argo6.5671234.xyz
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /e8e2cecb6188f7fb
     headers:
       Host: argo6.5671234.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
-  server: hinet1.2yly.com
-  port: 24215
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - feiyu852
+  server: 116.204.164.17
+  port: 7443
   udp: true
   type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
   tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
+  - 🇯🇵 日本 (Japan) 02 (家宽) - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852
+  - 🇯🇵 日本 (Japan) 02 (家宽) - feiyu852
 rules:
 - MATCH,PROXIES
