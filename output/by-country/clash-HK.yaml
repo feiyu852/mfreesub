@@ -19,77 +19,53 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: m5nsedvdczx6x06e
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - feiyu852
-  server: sth.free-outline.giize.com
-  port: 1081
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: n7vuxdsmlqnrbxqe
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - feiyu852
-  server: 34.96.188.243
+  server: 202.146.222.89
   port: 443
   udp: true
-  type: vless
-  uuid: 75d38591-267e-4d89-98bc-164f25b50880
-  tls: true
-  reality-opts:
-    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
-    short-id: 64b3f192fc0669e1
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - feiyu852
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - feiyu852
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%c3%b0%c2%9f%c2%87%c2%a8%c3%b0%c2%9f%c2%87%c2%b3
+  sni: https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - feiyu852
-  server: 007618a8-tmm5c0-tvvhcz-tl32.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-  sni: 007618a8-tmm5c0-tvvhcz-tl32.hk3.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - feiyu852
-  server: 35.220.207.209
-  port: 443
-  udp: true
-  type: vless
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  tls: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - feiyu852
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - feiyu852
-  server: 149.88.78.173
+  server: strong-haddock.rooster465.autos
   port: 443
   udp: true
   type: trojan
-  password: 66974838-ee71-481c-b9dd-172edbccece7
-  sni: node2.luoye.ee
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - feiyu852
-  server: 202.146.222.89
-  port: 443
+  password: UX82473651
+  sni: strong-haddock.rooster465.autos
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - feiyu852
+  server: avrku8ft.4ya21vwd0lw6ngzk.awstrack.vip
+  port: 16464
+  udp: true
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: MzUxNDUyY2IzYTQ5ODQzMw==:MjA3ZmY5MWEtOWE3MC00Mg==
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - feiyu852
+  server: mz.hkychina.com
+  port: 8443
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%253a%252f%252ft.me%252fclashv8%25f0%259f%2587%25a8%25f0%259f%2587%25b3
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - feiyu852
+  password: HysTeria2026!Proxy
+  sni: mz.hkychina.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - feiyu852
   server: 194.99.79.26
   port: 443
   udp: true
@@ -103,15 +79,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - feiyu852
-  server: strong-haddock.rooster465.autos
-  port: 443
-  udp: true
-  type: trojan
-  password: UX82473651
-  sni: strong-haddock.rooster465.autos
-  skip-cert-verify: false
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - feiyu852
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - feiyu852
   server: ru1.xiaoliyu.cyou
   port: 18333
   udp: true
@@ -134,9 +102,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - feiyu852
   - 🇭🇰 中国香港 (Hong Kong) 09 - feiyu852
   - 🇭🇰 中国香港 (Hong Kong) 10 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 11 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 12 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 13 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -152,8 +117,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - feiyu852
   - 🇭🇰 中国香港 (Hong Kong) 09 - feiyu852
   - 🇭🇰 中国香港 (Hong Kong) 10 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 11 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 12 - feiyu852
-  - 🇭🇰 中国香港 (Hong Kong) 13 - feiyu852
 rules:
 - MATCH,PROXIES

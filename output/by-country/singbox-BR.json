@@ -5,13 +5,22 @@
   "outbounds": [
     {
       "type": "vmess",
-      "tag": "🇨🇳 CN 01 - feiyu852",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "fde10e39-48bb-4dcf-b3ba-71d711323a54",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - feiyu852",
+      "server": "89.39.161.157",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aksai.org",
+        "insecure": false
+      },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aksai.org"
+        }
       }
     },
     {
@@ -19,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - feiyu852"
+        "🇧🇷 巴西 (Brazil) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - feiyu852"
+        "🇧🇷 巴西 (Brazil) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
