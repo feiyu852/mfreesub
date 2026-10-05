@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - feiyu852
+  server: 185.103.110.68
+  port: 18283
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+- name: 🇫🇮 芬兰 (Finland) 02 - feiyu852
+  server: 144.31.212.253
+  port: 443
+  udp: true
+  type: hysteria2
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: vps155-edge.kermemehori.ru
+  skip-cert-verify: true
+- name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
   server: 131.123.13.93
   port: 443
   udp: true
@@ -17,28 +32,6 @@ proxies:
     short-id: 29455a3a790acbd0
   servername: 1mcfn.67resserv67.info
   client-fingerprint: safari
-- name: 🇫🇮 芬兰 (Finland) 02 - feiyu852
-  server: 144.31.212.253
-  port: 443
-  udp: true
-  type: hysteria2
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: vps155-edge.kermemehori.ru
-  skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
-  server: 185.103.110.68
-  port: 18283
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-- name: 🇫🇮 芬兰 (Finland) 04 - feiyu852
-  server: 45.149.114.171
-  port: 777
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,7 +40,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - feiyu852
   - 🇫🇮 芬兰 (Finland) 02 - feiyu852
   - 🇫🇮 芬兰 (Finland) 03 - feiyu852
-  - 🇫🇮 芬兰 (Finland) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,6 +48,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - feiyu852
   - 🇫🇮 芬兰 (Finland) 02 - feiyu852
   - 🇫🇮 芬兰 (Finland) 03 - feiyu852
-  - 🇫🇮 芬兰 (Finland) 04 - feiyu852
 rules:
 - MATCH,PROXIES
