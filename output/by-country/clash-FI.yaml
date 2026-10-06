@@ -17,7 +17,7 @@ proxies:
   udp: true
   type: hysteria2
   password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
   skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
   server: 13.143.129.45
