@@ -5,30 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - feiyu852
-  server: 95.216.27.15
-  port: 2053
+  server: 185.103.110.68
+  port: 18283
   udp: true
-  type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  tls: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
 - name: 🇫🇮 芬兰 (Finland) 02 - feiyu852
-  server: 188.130.209.216
+  server: 144.31.212.253
   port: 443
   udp: true
-  type: vless
-  uuid: 444623e9-f27d-487c-b7cc-436931967e79
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: M7yPV6xLi9h6EevpqZfXLZBuxoey8kz1c6Bh0pK5fho
-    short-id: 170ab9ced015571f
-  servername: emaar.ru
-  client-fingerprint: safari
+  type: hysteria2
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: 144.31.212.253
+  skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
   server: 13.143.129.45
   port: 443
