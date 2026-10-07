@@ -6,34 +6,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 01 - feiyu852",
-      "server": "185.103.110.66",
-      "server_port": 18280,
-      "method": "aes-128-gcm",
-      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - feiyu852",
       "server": "185.103.110.68",
       "server_port": 18283,
       "method": "aes-128-gcm",
       "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - feiyu852",
-      "server": "i.wareznet.ru",
-      "server_port": 8443,
-      "password": "d402d4c0b8354a90b70bb2566dce9a08",
-      "tls": {
-        "enabled": true,
-        "server_name": "i.wareznet.ru",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - feiyu852",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - feiyu852",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
@@ -57,9 +37,7 @@
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 02 - feiyu852"
       ]
     },
     {
@@ -67,9 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 02 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
