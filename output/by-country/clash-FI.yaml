@@ -17,6 +17,13 @@ proxies:
   servername: www.google.com
   client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 02 - feiyu852
+  server: 185.103.110.68
+  port: 18283
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+- name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
   server: 144.31.27.215
   port: 43000
   udp: true
@@ -29,19 +36,6 @@ proxies:
     short-id: 568d87a47271344e
   servername: 144.31.27.215
   client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 03 - feiyu852
-  server: gw1.edgemedia.lol
-  port: 13443
-  udp: true
-  type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: d2061bb1
-  servername: ya.ru
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
