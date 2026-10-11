@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
-      "server": "sg.australiacaregroup.site",
-      "server_port": 20004,
-      "password": "aec8e5e3-bb81-4b22-8802-0b88c54997b3",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - feiyu852",
+      "server": "spainspeedboostjbl88.qcloud.surf",
+      "server_port": 27313,
+      "password": "8bd04756-3beb-4348-82c9-d35453df50ce",
       "tls": {
         "enabled": true,
-        "server_name": "tw.australiacaregroup.site",
+        "server_name": "spainspeedboostjbl88.qcloud.surf",
         "insecure": true
       }
     },
@@ -20,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
