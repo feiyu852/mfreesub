@@ -5,27 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - feiyu852
-  server: 62.210.91.10
-  port: 23576
+  server: pl140.vpnbook.com
+  port: 443
   udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e5c65ph
 - name: 🇫🇷 法国 (France) 02 - feiyu852
-  server: 62.210.7.139
-  port: 60111
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: google.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 03 - feiyu852
   server: 13.36.234.11
   port: 443
   udp: true
@@ -33,31 +19,40 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 03 - feiyu852
+  server: 62.210.7.139
+  port: 60111
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: 62.210.7.139
+  skip-cert-verify: true
 - name: 🇫🇷 法国 (France) 04 - feiyu852
-  server: 51.255.166.202
+  server: 51.77.217.70
+  port: 2053
+  udp: true
+  type: vless
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  tls: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+    short-id: bfe58beb41f1d09f
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 05 - feiyu852
+  server: 88.151.197.213
   port: 443
   udp: true
   type: vless
-  uuid: 593bf46b-8316-5050-9357-d8a41e4db78b
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
   flow: xtls-rprx-vision
   tls: true
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
-  skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 05 - feiyu852
-  server: pl134.vpnbook.com
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e5c65ph
+  reality-opts:
+    public-key: 7gPPAdSE90GC5DWQhNH3-7oAHulpWz6iN8dIuKfBflc
+    short-id: 0da7e14db353e7d0
+  servername: frafra.nztvpn.com
+  client-fingerprint: random
 - name: 🇫🇷 法国 (France) 06 - feiyu852
-  server: 51.255.13.232
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-- name: 🇫🇷 法国 (France) 07 - feiyu852
   server: 62.210.147.2
   port: 43115
   udp: true
@@ -65,7 +60,7 @@ proxies:
   password: github.com/Alvin9999-newpac/fanqiang
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 08 - feiyu852
+- name: 🇫🇷 法国 (France) 07 - feiyu852
   server: 152.228.139.33
   port: 51671
   udp: true
@@ -80,7 +75,35 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc_common3
+- name: 🇫🇷 法国 (France) 08 - feiyu852
+  server: 51.255.13.232
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
 - name: 🇫🇷 法国 (France) 09 - feiyu852
+  server: 51.255.165.170
+  port: 443
+  udp: true
+  type: vless
+  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
+  flow: xtls-rprx-vision
+  tls: true
+  servername: tyxyrytyro-51255165170-direct.araghchy.com
+  skip-cert-verify: false
+- name: 🇫🇷 法国 (France) 10 - feiyu852
+  server: 104.18.8.83
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 11 - feiyu852
   server: 152.228.139.33
   port: 35108
   udp: true
@@ -91,22 +114,42 @@ proxies:
     public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
     short-id: 52add08b86a5ccea
   servername: www.nvidia.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 10 - feiyu852
-  server: 185.18.250.245
+- name: 🇫🇷 法国 (France) 12 - feiyu852
+  server: 37.49.230.85
+  port: 8443
+  udp: true
+  type: vless
+  uuid: c6db98c5-9959-425e-9340-300779fc4e4b
+  tls: true
+  servername: fr5.sodahub.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fr5grpc
+- name: 🇫🇷 法国 (France) 13 - feiyu852
+  server: 62.210.124.146
+  port: 22000
+  udp: true
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 14 - feiyu852
+  server: 51.255.166.202
   port: 443
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷 法国 (France) 11 - feiyu852
+  type: vless
+  uuid: e3k67dwms3
+  flow: xtls-rprx-vision
+  tls: true
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
+  skip-cert-verify: false
+- name: 🇫🇷 法国 (France) 15 - feiyu852
   server: 62.210.91.2
   port: 23576
   udp: true
@@ -118,18 +161,8 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 12 - feiyu852
-  server: tyxyrytyro-51255165170-direct.araghchy.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 40fbeade-2b35-55e2-8e72-39893b5917ea
-  flow: xtls-rprx-vision
-  tls: true
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
-  skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 13 - feiyu852
+  client-fingerprint: ''
+- name: 🇫🇷 法国 (France) 16 - feiyu852
   server: 145.239.55.210
   port: 80
   udp: true
@@ -142,36 +175,33 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-- name: 🇫🇷 法国 (France) 14 - feiyu852
-  server: 172.67.185.98
+- name: 🇫🇷 法国 (France) 17 - feiyu852
+  server: 8.47.69.0
   port: 2053
   udp: true
   type: vless
   uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
   tls: true
-  servername: fr.api-music-fa.com
+  servername: vless.api-music-fa.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /api/voip/updates/static/fr2035
     headers:
       Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 15 - feiyu852
-  server: 140.248.186.45
-  port: 443
+- name: 🇫🇷 法国 (France) 18 - feiyu852
+  server: 62.210.91.10
+  port: 23576
   udp: true
   type: vless
-  uuid: XpnTeam-11
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
   tls: true
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -192,6 +222,9 @@ proxy-groups:
   - 🇫🇷 法国 (France) 13 - feiyu852
   - 🇫🇷 法国 (France) 14 - feiyu852
   - 🇫🇷 法国 (France) 15 - feiyu852
+  - 🇫🇷 法国 (France) 16 - feiyu852
+  - 🇫🇷 法国 (France) 17 - feiyu852
+  - 🇫🇷 法国 (France) 18 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -212,5 +245,8 @@ proxy-groups:
   - 🇫🇷 法国 (France) 13 - feiyu852
   - 🇫🇷 法国 (France) 14 - feiyu852
   - 🇫🇷 法国 (France) 15 - feiyu852
+  - 🇫🇷 法国 (France) 16 - feiyu852
+  - 🇫🇷 法国 (France) 17 - feiyu852
+  - 🇫🇷 法国 (France) 18 - feiyu852
 rules:
 - MATCH,PROXIES
