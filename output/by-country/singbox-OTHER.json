@@ -6,7 +6,7 @@
     {
       "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - feiyu852",
-      "server": "172.64.152.23",
+      "server": "104.17.147.22",
       "server_port": 443,
       "password": "humanity",
       "tls": {

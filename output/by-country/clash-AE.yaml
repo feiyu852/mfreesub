@@ -15,6 +15,26 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - feiyu852
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - feiyu852
+  server: 104.143.223.79
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 14e227c3-5a83-4b4d-a41a-e5f499c79415
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: 🇦🇪 阿联酋 (UAE) 04 - feiyu852
   server: 157.228.155.238
   port: 443
   udp: true
@@ -27,30 +47,19 @@ proxies:
     short-id: 6f76ad09
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 03 - feiyu852
-  server: 157.228.155.185
-  port: 443
+- name: 🇦🇪 阿联酋 (UAE) 05 - feiyu852
+  server: 94.249.188.202
+  port: 43000
   udp: true
   type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  uuid: f8842728-bf43-47e2-83bf-283e21f33664
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg
-    short-id: 5ea112e8
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 04 - feiyu852
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+    public-key: TdLpPmh5-Tbcj3bUPp7uw9znQ_Asao8z9jG7Eccrhwk
+    short-id: 7887c27d
+  servername: 94.249.188.202
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +69,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - feiyu852
   - 🇦🇪 阿联酋 (UAE) 03 - feiyu852
   - 🇦🇪 阿联酋 (UAE) 04 - feiyu852
+  - 🇦🇪 阿联酋 (UAE) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +79,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - feiyu852
   - 🇦🇪 阿联酋 (UAE) 03 - feiyu852
   - 🇦🇪 阿联酋 (UAE) 04 - feiyu852
+  - 🇦🇪 阿联酋 (UAE) 05 - feiyu852
 rules:
 - MATCH,PROXIES

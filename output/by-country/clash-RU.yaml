@@ -19,13 +19,27 @@ proxies:
   grpc-opts:
     grpc-service-name: GunService
 - name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
-  server: 94.198.54.132
-  port: 443
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
+- name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  server: 194.87.118.184
+  port: 2053
   udp: true
   type: hysteria2
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  sni: msk.frkn.org
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: match-stream.lovkisport.blog
   skip-cert-verify: true
+- name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
+  server: 194.38.11.86
+  port: 65443
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +47,8 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +56,7 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
 rules:
 - MATCH,PROXIES

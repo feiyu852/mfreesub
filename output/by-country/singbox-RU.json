@@ -28,16 +28,32 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
-      "server": "94.198.54.132",
-      "server_port": 443,
-      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY="
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
+      "server": "194.87.118.184",
+      "server_port": 2053,
+      "password": "7ab3c77e-8fcc-4848-918f-cae3d4eac794",
       "tls": {
         "enabled": true,
-        "server_name": "msk.frkn.org",
+        "server_name": "match-stream.lovkisport.blog",
         "insecure": true
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+      "server": "194.38.11.86",
+      "server_port": 65443,
+      "method": "aes-256-cfb",
+      "password": "7eadc6dbe2ae"
     },
     {
       "type": "selector",
@@ -45,7 +61,9 @@
       "outbounds": [
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 02 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
       ]
     },
     {
@@ -53,7 +71,9 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 02 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

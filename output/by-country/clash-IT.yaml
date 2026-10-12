@@ -19,11 +19,11 @@ proxies:
   password: itzvpn@321
 - name: 🇮🇹 意大利 (Italy) 03 - feiyu852
   server: 91.201.65.122
-  port: 9092
+  port: 9074
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: TyNkGmp9hs6eGpDK
+  password: p5wSkb2uM3pKSS3j
 proxy-groups:
 - name: PROXIES
   type: select

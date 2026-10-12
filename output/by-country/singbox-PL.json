@@ -24,15 +24,24 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - feiyu852",
-      "server": "cheerful-swan.rooster465.autos",
-      "server_port": 443,
-      "password": "UX82473651",
+      "server": "31.77.13.19",
+      "server_port": 2063,
+      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
+        "server_name": "rusbid.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
+          "short_id": ""
+        }
       }
     },
     {
@@ -57,8 +66,20 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 04 - feiyu852",
+      "server": "87.76.134.44",
+      "server_port": 3231,
+      "password": "43212c32-01f2-4356-b216-67dc1c178262",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl2-bkjbu.vpvr4ib84nuv6hdkt.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 05 - feiyu852",
       "server": "2.26.225.89",
       "server_port": 8443,
       "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
@@ -69,36 +90,15 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 05 - feiyu852",
-      "server": "pl-waw.dontblockmepls.com",
-      "server_port": 2063,
-      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rusbid.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 06 - feiyu852",
-      "server": "admin.wwwinternetvideo.click",
+      "server": "144.31.49.47",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
@@ -123,18 +123,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇵🇱 波兰 (Poland) 08 - feiyu852",
-      "server": "144.31.49.47",
-      "server_port": 443,
-      "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
-      "tls": {
-        "enabled": true,
-        "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -145,8 +133,7 @@
         "🇵🇱 波兰 (Poland) 04 - feiyu852",
         "🇵🇱 波兰 (Poland) 05 - feiyu852",
         "🇵🇱 波兰 (Poland) 06 - feiyu852",
-        "🇵🇱 波兰 (Poland) 07 - feiyu852",
-        "🇵🇱 波兰 (Poland) 08 - feiyu852"
+        "🇵🇱 波兰 (Poland) 07 - feiyu852"
       ]
     },
     {
@@ -159,8 +146,7 @@
         "🇵🇱 波兰 (Poland) 04 - feiyu852",
         "🇵🇱 波兰 (Poland) 05 - feiyu852",
         "🇵🇱 波兰 (Poland) 06 - feiyu852",
-        "🇵🇱 波兰 (Poland) 07 - feiyu852",
-        "🇵🇱 波兰 (Poland) 08 - feiyu852"
+        "🇵🇱 波兰 (Poland) 07 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

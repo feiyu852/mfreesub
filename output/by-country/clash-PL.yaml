@@ -16,13 +16,17 @@ proxies:
   servername: pl-1-1.unturned-rust-dead.lol
   client-fingerprint: random
 - name: 🇵🇱 波兰 (Poland) 02 - feiyu852
-  server: cheerful-swan.rooster465.autos
-  port: 443
+  server: 31.77.13.19
+  port: 2063
   udp: true
-  type: trojan
-  password: UX82473651
-  sni: cheerful-swan.rooster465.autos
-  skip-cert-verify: true
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  servername: rusbid.de
+  client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 03 - feiyu852
   server: 144.31.101.196
   port: 33891
@@ -37,6 +41,14 @@ proxies:
   servername: browser.yandex.com
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 04 - feiyu852
+  server: 87.76.134.44
+  port: 3231
+  udp: true
+  type: hysteria2
+  password: 43212c32-01f2-4356-b216-67dc1c178262
+  sni: pl2-bkjbu.vpvr4ib84nuv6hdkt.ru
+  skip-cert-verify: true
+- name: 🇵🇱 波兰 (Poland) 05 - feiyu852
   server: 2.26.225.89
   port: 8443
   udp: true
@@ -45,26 +57,14 @@ proxies:
   tls: true
   servername: pl.flen-vpn.xyz
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 05 - feiyu852
-  server: pl-waw.dontblockmepls.com
-  port: 2063
-  udp: true
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  servername: rusbid.de
-  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 06 - feiyu852
-  server: admin.wwwinternetvideo.click
+  server: 144.31.49.47
   port: 443
   udp: true
   type: hysteria2
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 07 - feiyu852
   server: 177.1.192.74
   port: 443
@@ -78,14 +78,6 @@ proxies:
     short-id: 770618b6
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 08 - feiyu852
-  server: 144.31.49.47
-  port: 443
-  udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -98,7 +90,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - feiyu852
   - 🇵🇱 波兰 (Poland) 06 - feiyu852
   - 🇵🇱 波兰 (Poland) 07 - feiyu852
-  - 🇵🇱 波兰 (Poland) 08 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -111,6 +102,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - feiyu852
   - 🇵🇱 波兰 (Poland) 06 - feiyu852
   - 🇵🇱 波兰 (Poland) 07 - feiyu852
-  - 🇵🇱 波兰 (Poland) 08 - feiyu852
 rules:
 - MATCH,PROXIES
