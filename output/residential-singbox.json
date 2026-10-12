@@ -4,24 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
-      "server": "24864168545164.d6f54hd1j.cc",
-      "server_port": 443,
-      "uuid": "ecdc303d-bcbf-4129-bc02-dd67703f7081",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "24864168545164.d6f54hd1j.cc",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "24864168545164.d6f54hd1j.cc"
-        }
-      }
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - feiyu852",
+      "server": "test.keoplentuio.xyz",
+      "server_port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
     },
     {
       "type": "vmess",
@@ -36,37 +23,42 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "654168416355441.d6f54hd1j.cc"
-        }
+        "type": "ws"
       }
     },
     {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - feiyu852",
-      "server": "test.keoplentuio.xyz",
-      "server_port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f"
+      "type": "vmess",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852",
+      "server": "24864168545164.d6f54hd1j.cc",
+      "server_port": 443,
+      "uuid": "ecdc303d-bcbf-4129-bc02-dd67703f7081",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "24864168545164.d6f54hd1j.cc",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - feiyu852",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - feiyu852",
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - feiyu852",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - feiyu852",
-        "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - feiyu852"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
