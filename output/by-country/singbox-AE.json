@@ -4,29 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
-      "server": "157.228.155.238",
-      "server_port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I",
-          "short_id": "6f76ad09"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -38,6 +17,27 @@
       "obfs": {
         "type": "salamander",
         "password": "rG07s3COMIEvdnQipRyWzx_H_2xygNC3"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
+      "server": "157.228.155.185",
+      "server_port": 443,
+      "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4q8nqNb-0c-akP3XqVmen67BLXJVlx48a_GDRw16nVg",
+          "short_id": "5ea112e8"
+        }
       }
     },
     {
@@ -67,6 +67,30 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
+      "server": "31.59.210.32",
+      "server_port": 443,
+      "uuid": "5413edfb-08d6-4fba-b51c-809c04feb127",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qvVoQPNyuM86jBvBqOL-Z9VO_C9jMi_ZH8bb4fotNWA",
+          "short_id": "7ec4374ffc6308fd"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "astracat"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
       "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -82,7 +106,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 04 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
+        "🇦🇪 阿联酋 (UAE) 05 - feiyu852"
       ]
     },
     {
@@ -92,7 +117,8 @@
         "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 04 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
+        "🇦🇪 阿联酋 (UAE) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
