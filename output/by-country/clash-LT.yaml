@@ -13,11 +13,11 @@ proxies:
   password: UkXRsXvR6buDMG2Y
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - feiyu852
   server: 195.238.126.20
-  port: 9002
+  port: 9086
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: b8KkNDjEd5QqFyRm
+  password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - feiyu852
   server: 195.238.126.20
   port: 9078
@@ -26,13 +26,6 @@ proxies:
   cipher: aes-256-cfb
   password: JCJpbRbQZNw9XFZG
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - feiyu852
-  server: 195.238.126.20
-  port: 9086
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 37Z4TFCYhfxcpc9Q
-- name: 🇱🇹 立陶宛 (Lithuania) 05 - feiyu852
   server: 84.32.109.20
   port: 443
   udp: true
@@ -45,6 +38,13 @@ proxies:
     short-id: 0da7e14db353e7d0
   servername: litv.nztvpn.com
   client-fingerprint: chrome
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - feiyu852
+  server: 195.238.126.20
+  port: 9002
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
 proxy-groups:
 - name: PROXIES
   type: select
