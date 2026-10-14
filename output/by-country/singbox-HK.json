@@ -4,29 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - feiyu852",
-      "server": "154.37.216.186",
+      "server": "202.146.222.174",
       "server_port": 443,
-      "uuid": "ebdec762-050b-4d54-b7bf-0406ce22f734",
-      "flow": "xtls-rprx-vision",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KkSH2hoA6PuNJL5ZNUDGuWoAYe5kIwcGbrbCYuxHTx8",
-          "short_id": "f39ad9d9eb26df47"
-        }
+        "server_name": "t.me",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2ð¨ð³",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
       "server": "34.92.19.135",
       "server_port": 443,
       "uuid": "90153538-ef08-4942-b8e1-41e7c523e659",
@@ -35,7 +38,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -46,7 +49,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
       "server": "103.193.173.51",
       "server_port": 39485,
       "uuid": "25b3faeb-89b0-4dff-b0a3-0e70997dc962",
@@ -66,48 +69,36 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
-      "server": "82.29.36.250",
+      "type": "trojan",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
+      "server": "node1.luoye.ee",
       "server_port": 443,
-      "uuid": "41a7af38-0bb1-4493-aa8d-634af0c2548b",
+      "password": "14cb26ae-4088-48d1-a2ca-9a7c0bd7e846",
+      "tls": {
+        "enabled": true,
+        "server_name": "node1.luoye.ee",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
+      "server": "3696b38bsg.murphyweb.sbs",
+      "server_port": 32134,
+      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "aws.amazon.com",
+        "server_name": "buylite.music.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "09XPceP705hC-5sEDXDSLeL2eMOrF-mFISK8JaJ7q2g",
-          "short_id": "09353d6dc5b789"
+          "public_key": "OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4",
+          "short_id": "6c6c7c97"
         }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/oneclickvpnkeys",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2ð\\x9f\\x87ð\\x9f\\x87",
-        "insecure": true
       }
     },
     {
@@ -131,27 +122,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - feiyu852",
-      "server": "3696b38bsg.murphyweb.sbs",
-      "server_port": 32134,
-      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "buylite.music.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4",
-          "short_id": "6c6c7c97"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -162,8 +132,7 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 07 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 08 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 07 - feiyu852"
       ]
     },
     {
@@ -176,8 +145,7 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 07 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 08 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 07 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
