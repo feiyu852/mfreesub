@@ -4,23 +4,37 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - feiyu852",
-      "server": "172.105.39.124",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 02 - feiyu852",
-      "server": "in.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
       "tls": {
         "enabled": true,
-        "server_name": "in.tronsg.com",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+          "short_id": "9980e0609b0d3891"
+        }
       }
     },
     {
@@ -39,38 +53,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇮🇳 印度 (India) 04 - feiyu852",
-      "server": "13.140.56.100",
-      "server_port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - feiyu852",
-      "server": "hk03.ccdn3.work",
-      "server_port": 753,
-      "uuid": "fc12fb20-4380-11ec-8c97-d707e267af0b",
-      "flow": "xtls-rprx-vision",
+      "server": "in.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "i1.hdslb.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "y3AAdi1d5zRrTb_pm-DJWsoP-srtEzYP2P8XxmvbkhQ",
-          "short_id": "4b8ad8fe52fca1a0"
-        }
+        "server_name": "in.tronsg.com",
+        "insecure": true
       }
     },
     {
@@ -81,8 +72,7 @@
         "🇮🇳 印度 (India) 01 - feiyu852",
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
-        "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852"
+        "🇮🇳 印度 (India) 04 - feiyu852"
       ]
     },
     {
@@ -92,8 +82,7 @@
         "🇮🇳 印度 (India) 01 - feiyu852",
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
-        "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852"
+        "🇮🇳 印度 (India) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
