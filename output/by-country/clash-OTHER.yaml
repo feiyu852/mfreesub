@@ -5,16 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - feiyu852
-  server: 104.18.57.149
-  port: 2052
+  server: 104.19.4.149
+  port: 443
   udp: true
   type: vless
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
+    path: /ws
     headers:
-      Host: uwu.blueknightnet.qzz.io
+      Host: a.cwvps.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
