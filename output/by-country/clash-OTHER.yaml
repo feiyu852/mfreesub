@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇬 新加坡 (Singapore) 01 (家宽) - feiyu852
-  server: 185.115.207.141
+- name: 🌐 其他地区 (Other) 01 - feiyu852
+  server: 104.16.111.195
   port: 443
   udp: true
   type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: wzs.echo.net.eu.org
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    path: /tyxyws
     headers:
-      Host: wzs.echo.net.eu.org
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - feiyu852
+  - 🌐 其他地区 (Other) 01 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - feiyu852
+  - 🌐 其他地区 (Other) 01 - feiyu852
 rules:
 - MATCH,PROXIES
