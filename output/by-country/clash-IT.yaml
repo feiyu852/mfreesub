@@ -12,13 +12,6 @@ proxies:
   cipher: aes-256-gcm
   password: itzvpn@321
 - name: 🇮🇹 意大利 (Italy) 02 - feiyu852
-  server: 185.164.175.81
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 03 - feiyu852
   server: 31.59.180.155
   port: 443
   udp: true
@@ -30,22 +23,8 @@ proxies:
     public-key: _0bRaAOYHd4ccDCmnlIq9I13WLRuT4LzlXfV_GGHKE0
     short-id: 5aab0b0401044801
   servername: italynew.nztvpn.com
-  client-fingerprint: chrome
-- name: 🇮🇹 意大利 (Italy) 04 - feiyu852
-  server: 91.201.65.122
-  port: 9074
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: p5wSkb2uM3pKSS3j
-- name: 🇮🇹 意大利 (Italy) 05 - feiyu852
-  server: 91.201.65.122
-  port: 9092
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: TyNkGmp9hs6eGpDK
-- name: 🇮🇹 意大利 (Italy) 06 - feiyu852
+  client-fingerprint: firefox
+- name: 🇮🇹 意大利 (Italy) 03 - feiyu852
   server: 82.118.16.189
   port: 443
   udp: true
@@ -57,19 +36,33 @@ proxies:
     public-key: SjGkzJQ9I6ZZjC3V73atcPMczhMm0oiTrB8mUQXz1HY
     short-id: 37fbf155c7a9f3ff
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 07 - feiyu852
-  server: 57.131.38.163
-  port: 2053
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 04 - feiyu852
+  server: 185.164.175.81
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 05 - feiyu852
+  server: 82.118.16.187
+  port: 443
   udp: true
   type: vless
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-    short-id: 5b8a942318178e7b
-  servername: www.apple.com
+    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
+    short-id: cd6065902eea7a02
+  servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 06 - feiyu852
+  server: 204.216.216.23
+  port: 10086
+  udp: true
+  type: vless
+  uuid: 9f0285ee-20ca-4953-bcdb-86a920652923
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,7 +74,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 04 - feiyu852
   - 🇮🇹 意大利 (Italy) 05 - feiyu852
   - 🇮🇹 意大利 (Italy) 06 - feiyu852
-  - 🇮🇹 意大利 (Italy) 07 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -93,6 +85,5 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 04 - feiyu852
   - 🇮🇹 意大利 (Italy) 05 - feiyu852
   - 🇮🇹 意大利 (Italy) 06 - feiyu852
-  - 🇮🇹 意大利 (Italy) 07 - feiyu852
 rules:
 - MATCH,PROXIES
