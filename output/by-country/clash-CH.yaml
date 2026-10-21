@@ -20,21 +20,6 @@ proxies:
   sni: 140.238.213.114
   skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 03 - feiyu852
-  server: 203.137.165.164
-  port: 57554
-  udp: true
-  type: vless
-  uuid: e5b2a063-a114-4bd0-802d-b2da1fe1d1da
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇨🇭 瑞士 (Switzerland) 04 - feiyu852
   server: 45.90.59.15
   port: 443
   udp: true
@@ -55,7 +40,6 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 01 - feiyu852
   - 🇨🇭 瑞士 (Switzerland) 02 - feiyu852
   - 🇨🇭 瑞士 (Switzerland) 03 - feiyu852
-  - 🇨🇭 瑞士 (Switzerland) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -64,6 +48,5 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 01 - feiyu852
   - 🇨🇭 瑞士 (Switzerland) 02 - feiyu852
   - 🇨🇭 瑞士 (Switzerland) 03 - feiyu852
-  - 🇨🇭 瑞士 (Switzerland) 04 - feiyu852
 rules:
 - MATCH,PROXIES

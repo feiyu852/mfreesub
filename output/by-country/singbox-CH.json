@@ -26,29 +26,6 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
-      "server": "203.137.165.164",
-      "server_port": 57554,
-      "uuid": "e5b2a063-a114-4bd0-802d-b2da1fe1d1da",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - feiyu852",
       "server": "45.90.59.15",
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
@@ -74,8 +51,7 @@
         "auto",
         "🇨🇭 瑞士 (Switzerland) 01 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 04 - feiyu852"
+        "🇨🇭 瑞士 (Switzerland) 03 - feiyu852"
       ]
     },
     {
@@ -84,8 +60,7 @@
       "outbounds": [
         "🇨🇭 瑞士 (Switzerland) 01 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 04 - feiyu852"
+        "🇨🇭 瑞士 (Switzerland) 03 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
