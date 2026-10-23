@@ -4,26 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 瑞典 (Sweden) 01 - feiyu852
-  server: 5.178.109.174
-  port: 14430
+- name: 🇲🇽 墨西哥 (Mexico) 01 - feiyu852
+  server: 131.196.254.151
+  port: 443
   udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 瑞典 (Sweden) 01 - feiyu852
+  - 🇲🇽 墨西哥 (Mexico) 01 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 瑞典 (Sweden) 01 - feiyu852
+  - 🇲🇽 墨西哥 (Mexico) 01 - feiyu852
 rules:
 - MATCH,PROXIES
