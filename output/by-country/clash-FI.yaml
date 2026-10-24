@@ -43,6 +43,18 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 04 - feiyu852
+  server: 177.3.214.156
+  port: 443
+  udp: true
+  type: vless
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+  servername: finlandlanzarotte.live
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,6 +63,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - feiyu852
   - 🇫🇮 芬兰 (Finland) 02 - feiyu852
   - 🇫🇮 芬兰 (Finland) 03 - feiyu852
+  - 🇫🇮 芬兰 (Finland) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,5 +72,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - feiyu852
   - 🇫🇮 芬兰 (Finland) 02 - feiyu852
   - 🇫🇮 芬兰 (Finland) 03 - feiyu852
+  - 🇫🇮 芬兰 (Finland) 04 - feiyu852
 rules:
 - MATCH,PROXIES
