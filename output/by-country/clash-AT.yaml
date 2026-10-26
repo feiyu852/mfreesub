@@ -26,7 +26,37 @@ proxies:
     headers:
       Host: au6.pad-sservice.lat
 - name: 🇦🇹 奥地利 (Austria) 03 - feiyu852
-  server: au2.pad-sservice.lat
+  server: 152.53.1.40
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: au4.pad-sservice.lat
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /A14U
+    headers:
+      Host: au4.pad-service.com
+- name: 🇦🇹 奥地利 (Austria) 04 - feiyu852
+  server: au7.pad-sservice.lat
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: au7.pad-sservice.lat
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /AU7W
+    headers:
+      Host: au7.pad-sservice.lat
+- name: 🇦🇹 奥地利 (Austria) 05 - feiyu852
+  server: 89.58.20.210
   port: 8443
   udp: true
   type: vless
@@ -40,21 +70,6 @@ proxies:
     path: /A11U
     headers:
       Host: au2.pad-service.com
-- name: 🇦🇹 奥地利 (Austria) 04 - feiyu852
-  server: au5.pad-sservice.lat
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  tls: true
-  servername: au5.pad-sservice.lat
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /AU5W
-    headers:
-      Host: au5.pad-sservice.lat
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,6 +79,7 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 02 - feiyu852
   - 🇦🇹 奥地利 (Austria) 03 - feiyu852
   - 🇦🇹 奥地利 (Austria) 04 - feiyu852
+  - 🇦🇹 奥地利 (Austria) 05 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,5 +89,6 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 02 - feiyu852
   - 🇦🇹 奥地利 (Austria) 03 - feiyu852
   - 🇦🇹 奥地利 (Austria) 04 - feiyu852
+  - 🇦🇹 奥地利 (Austria) 05 - feiyu852
 rules:
 - MATCH,PROXIES
