@@ -6,13 +6,15 @@
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 01 - feiyu852",
-      "server": "th001.zestapp778.com",
-      "server_port": 22222,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "tls": {
-        "enabled": true,
-        "server_name": "th001.zestapp778.com",
-        "insecure": false
+      "server": "103.86.49.57",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "aIs.SpEeDtEsT.nEt"
+        }
       }
     },
     {
@@ -39,14 +41,39 @@
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 03 - feiyu852",
-      "server": "103.86.49.57",
-      "server_port": 80,
+      "server": "38.60.254.50",
+      "server_port": 22222,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tls": {
+        "enabled": true,
+        "server_name": "th001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇭 泰国 (Thailand) 04 - feiyu852",
+      "server": "104.18.26.90",
+      "server_port": 443,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/ws",
         "headers": {
-          "Host": "aIs.SpEeDtEsT.nEt"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },
@@ -57,7 +84,8 @@
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - feiyu852",
         "🇹🇭 泰国 (Thailand) 02 - feiyu852",
-        "🇹🇭 泰国 (Thailand) 03 - feiyu852"
+        "🇹🇭 泰国 (Thailand) 03 - feiyu852",
+        "🇹🇭 泰国 (Thailand) 04 - feiyu852"
       ]
     },
     {
@@ -66,7 +94,8 @@
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - feiyu852",
         "🇹🇭 泰国 (Thailand) 02 - feiyu852",
-        "🇹🇭 泰国 (Thailand) 03 - feiyu852"
+        "🇹🇭 泰国 (Thailand) 03 - feiyu852",
+        "🇹🇭 泰国 (Thailand) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

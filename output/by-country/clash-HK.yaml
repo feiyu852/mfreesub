@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - feiyu852
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2🇨🇳
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - feiyu852
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.89
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - feiyu852
   server: 165.154.63.139
   port: 443
   udp: true
@@ -16,49 +32,9 @@ proxies:
     public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
     short-id: ca4aedd4
   servername: www.amazon.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - feiyu852
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - feiyu852
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8🇨🇳
-  skip-cert-verify: true
+  client-fingerprint: random
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - feiyu852
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üá®üá≥
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - feiyu852
-  server: 47.243.153.153
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - feiyu852
-  server: 50.7.252.50
+  server: 50.7.44.28
   port: 2091
   udp: true
   type: vless
@@ -70,6 +46,27 @@ proxies:
     short-id: 08a4b1f473932632
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - feiyu852
+  server: hk2.open-bridonyx.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  servername: hk2.open-bridonyx.top
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - feiyu852
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2ôøωôøωôøωôøω
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - feiyu852
   server: 103.238.227.211
   port: 21002
