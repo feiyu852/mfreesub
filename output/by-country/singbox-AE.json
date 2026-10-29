@@ -4,31 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
-      "server": "128.241.25.3",
-      "server_port": 30021,
-      "uuid": "53339ee0-1412-4550-89c7-48d1cb71b390",
-      "tls": {
-        "enabled": true,
-        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -43,6 +20,17 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
+      "server": "95.174.68.188",
+      "server_port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
       "server": "ams1.rvpn.app",
@@ -51,40 +39,13 @@
       "password": "x2A6AsyZ-rAllz0wbKHzWA"
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
-      "server": "217.60.72.225",
-      "server_port": 443,
-      "password": "329e13e4-ee7c-4802-ac72-5fcab79c2402",
-      "tls": {
-        "enabled": true,
-        "server_name": "forshynewh.duckdns.org",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-      "server": "95.174.68.188",
-      "server_port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - feiyu852",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
           "Host": "uae.unixzone.us"
         }
@@ -98,9 +59,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 06 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 04 - feiyu852"
       ]
     },
     {
@@ -110,9 +69,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 02 - feiyu852",
         "🇦🇪 阿联酋 (UAE) 03 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 04 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 05 - feiyu852",
-        "🇦🇪 阿联酋 (UAE) 06 - feiyu852"
+        "🇦🇪 阿联酋 (UAE) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
