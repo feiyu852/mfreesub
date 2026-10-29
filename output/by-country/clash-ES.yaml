@@ -5,20 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - feiyu852
-  server: 66.163.118.131
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 02 - feiyu852
   server: 66.163.118.244
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: api.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 02 - feiyu852
+  server: 66.163.118.62
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 03 - feiyu852
+  server: 66.163.118.131
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
@@ -27,6 +35,7 @@ proxy-groups:
   - AUTO
   - 🇪🇸 西班牙 (Spain) 01 - feiyu852
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 03 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,5 +43,6 @@ proxy-groups:
   proxies:
   - 🇪🇸 西班牙 (Spain) 01 - feiyu852
   - 🇪🇸 西班牙 (Spain) 02 - feiyu852
+  - 🇪🇸 西班牙 (Spain) 03 - feiyu852
 rules:
 - MATCH,PROXIES

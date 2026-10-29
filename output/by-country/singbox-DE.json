@@ -4,19 +4,52 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 01 - feiyu852",
-      "server": "185.226.172.8",
-      "server_port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "server": "104.21.77.142",
+      "server_port": 2096,
+      "uuid": "b9ede7a5-5b4b-4aee-ac37-2c307e587e47",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.mftplus.qzz.io",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "headers": {
+          "Host": "courses.mftplus.qzz.io"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 02 - feiyu852",
-      "server": "155.117.5.208",
-      "server_port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1"
+      "server": "172.66.44.124",
+      "server_port": 8443,
+      "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -27,17 +60,16 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 04 - feiyu852",
-      "server": "146.70.20.147",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
+      "server": "155.117.5.208",
+      "server_port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1"
     },
     {
       "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 05 - feiyu852",
-      "server": "9.247.23.209",
+      "server": "163.245.42.157",
       "server_port": 443,
       "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
       "flow": "xtls-rprx-vision",
@@ -58,14 +90,21 @@
     {
       "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 06 - feiyu852",
-      "server": "57.129.41.216",
-      "server_port": 80,
-      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "OV-Germany1.09vpn.com"
+      "server": "9.247.23.209",
+      "server_port": 443,
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "mother-earth.fyi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
       }
     },
@@ -91,8 +130,40 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇩🇪 德国 (Germany) 08 - feiyu852",
+      "server": "185.226.172.8",
+      "server_port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 (Germany) 09 - feiyu852",
+      "server": "151.243.169.164",
+      "server_port": 12824,
+      "password": "d62s7ghfehm742us",
+      "tls": {
+        "enabled": true,
+        "server_name": "derfderf.ru",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 (Germany) 10 - feiyu852",
+      "server": "88.99.213.222",
+      "server_port": 14444,
+      "password": "mhsl",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 (Germany) 11 - feiyu852",
       "server": "edge.bookmai.com",
       "server_port": 443,
       "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
@@ -102,7 +173,7 @@
         "server_name": "mother-earth.fyi",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -112,8 +183,46 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 (Germany) 12 - feiyu852",
+      "server": "179.254.127.159",
+      "server_port": 443,
+      "password": "23c82941-70f4-4381-90db-bd28e9a902e9",
+      "tls": {
+        "enabled": true,
+        "server_name": "steel7.hadsvpn.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪 德国 (Germany) 13 - feiyu852",
+      "server": "3.76.221.4",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 09 - feiyu852",
+      "tag": "🇩🇪 德国 (Germany) 14 - feiyu852",
+      "server": "57.129.41.216",
+      "server_port": 80,
+      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "OV-Germany1.09vpn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 (Germany) 15 - feiyu852",
       "server": "82.118.19.153",
       "server_port": 443,
       "uuid": "adcaa148-7c66-4282-a81a-99ec8afa029d",
@@ -133,85 +242,54 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 (Germany) 10 - feiyu852",
-      "server": "88.99.213.222",
-      "server_port": 14444,
-      "password": "mhsl",
+      "type": "shadowsocks",
+      "tag": "🇩🇪 德国 (Germany) 16 - feiyu852",
+      "server": "57.129.113.16",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "NcAXc0UZI6yQJE1p8QmOv8"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 德国 (Germany) 17 - feiyu852",
+      "server": "91.107.247.173",
+      "server_port": 2083,
+      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true
+        "server_name": "sino.bestsellers1.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 11 - feiyu852",
-      "server": "163.245.42.157",
-      "server_port": 443,
-      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇩🇪 德国 (Germany) 18 - feiyu852",
+      "server": "91.107.188.129",
+      "server_port": 2083,
+      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
       "tls": {
         "enabled": true,
-        "server_name": "mother-earth.fyi",
+        "server_name": "site.check-looks.space",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
         }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 德国 (Germany) 12 - feiyu852",
-      "server": "213.202.208.199",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 (Germany) 13 - feiyu852",
-      "server": "3.76.221.4",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 (Germany) 14 - feiyu852",
-      "server": "18.193.79.104",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 (Germany) 15 - feiyu852",
-      "server": "derfderf.ru",
-      "server_port": 12824,
-      "password": "d62s7ghfehm742us",
-      "tls": {
-        "enabled": true,
-        "server_name": "derfderf.ru",
-        "insecure": false
+      },
+      "transport": {
+        "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 16 - feiyu852",
+      "tag": "🇩🇪 德国 (Germany) 19 - feiyu852",
       "server": "fly.lumexa.ir",
       "server_port": 443,
       "uuid": "7a96136a-20ad-4aec-86bd-f6622fbb8ce6",
@@ -231,86 +309,20 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇩🇪 德国 (Germany) 17 - feiyu852",
-      "server": "18.153.65.67",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 18 - feiyu852",
-      "server": "91.107.247.173",
-      "server_port": 2083,
-      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sino.bestsellers1.site",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 19 - feiyu852",
-      "server": "91.107.188.129",
-      "server_port": 2083,
-      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
-      "tls": {
-        "enabled": true,
-        "server_name": "site.check-looks.space",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "hysteria2",
+      "type": "trojan",
       "tag": "🇩🇪 德国 (Germany) 20 - feiyu852",
-      "server": "3.64.194.247",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "server": "de-bots4.h1cloud.net",
+      "server_port": 25267,
+      "password": "happybirthdaydaniel",
       "tls": {
         "enabled": true,
-        "server_name": "3.64.194.247",
+        "server_name": "t.me/FuckTheWall",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 德国 (Germany) 21 - feiyu852",
-      "server": "req.apptrendv.com",
-      "server_port": 2083,
-      "uuid": "7cc18adc-1ef0-42c9-8e7b-722d7622c7dd",
-      "tls": {
-        "enabled": true,
-        "server_name": "email.apptrendv.com",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 德国 (Germany) 22 - feiyu852",
       "server": "31.77.148.89",
       "server_port": 45021,
       "uuid": "ad263f1c-199e-4aaf-bf22-c3ad0407d377"
@@ -340,8 +352,7 @@
         "🇩🇪 德国 (Germany) 18 - feiyu852",
         "🇩🇪 德国 (Germany) 19 - feiyu852",
         "🇩🇪 德国 (Germany) 20 - feiyu852",
-        "🇩🇪 德国 (Germany) 21 - feiyu852",
-        "🇩🇪 德国 (Germany) 22 - feiyu852"
+        "🇩🇪 德国 (Germany) 21 - feiyu852"
       ]
     },
     {
@@ -368,8 +379,7 @@
         "🇩🇪 德国 (Germany) 18 - feiyu852",
         "🇩🇪 德国 (Germany) 19 - feiyu852",
         "🇩🇪 德国 (Germany) 20 - feiyu852",
-        "🇩🇪 德国 (Germany) 21 - feiyu852",
-        "🇩🇪 德国 (Germany) 22 - feiyu852"
+        "🇩🇪 德国 (Germany) 21 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
