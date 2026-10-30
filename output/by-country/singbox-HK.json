@@ -44,7 +44,7 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "202.146.222.174",
+        "server_name": "off",
         "insecure": true
       }
     },
@@ -56,36 +56,13 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96",
+        "server_name": "speedtest.tinkoff.ru",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
-      "server": "104.21.29.202",
-      "server_port": 443,
-      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
-      "tls": {
-        "enabled": true,
-        "server_name": "px2.5ibtc.cn",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0",
-        "headers": {
-          "Host": "px2.5ibtc.cn"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
       "server": "195.58.144.56",
       "server_port": 11907,
       "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
@@ -112,8 +89,7 @@
         "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852"
       ]
     },
     {
@@ -124,8 +100,7 @@
         "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
