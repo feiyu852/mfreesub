@@ -4,45 +4,40 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - feiyu852",
-      "server": "www.ubuntuupdates.com",
+      "server": "172.64.145.133",
       "server_port": 443,
-      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
-      "security": "auto",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "www.ubuntuupdates.com",
+        "server_name": "www.pleadcourt.org",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/truth",
+        "path": "/assignment",
         "headers": {
-          "Host": "www.ubuntuupdates.com"
+          "Host": "www.pleadcourt.org"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 02 - feiyu852",
-      "server": "n04.jinggai.online",
-      "server_port": 8443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "server": "172.64.145.133",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "n04.jinggai.online",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.pleadcourt.org",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/nvl-n04-ws/e0577fe8fd7c8823",
+        "path": "/assignment",
         "headers": {
-          "Host": "n04.jinggai.online"
+          "Host": "www.pleadcourt.org"
         }
       }
     },

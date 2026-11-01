@@ -5,36 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - feiyu852
-  server: www.ubuntuupdates.com
+  server: 172.64.145.133
   port: 443
   udp: true
-  type: vmess
-  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: www.ubuntuupdates.com
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /truth
-    headers:
-      Host: www.ubuntuupdates.com
+    path: /assignment
 - name: 🌐 其他地区 (Other) 02 - feiyu852
-  server: n04.jinggai.online
-  port: 8443
+  server: 172.64.145.133
+  port: 443
   udp: true
-  type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  tls: true
-  servername: n04.jinggai.online
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-    headers:
-      Host: n04.jinggai.online
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
