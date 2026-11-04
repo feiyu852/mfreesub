@@ -15,7 +15,7 @@
         "server_name": "www.amazon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -39,18 +39,6 @@
     {
       "type": "hysteria2",
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "202.146.222.174",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -62,14 +50,38 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
       "server": "202.146.222.29",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2fwangcai2%d1%80%d2%b9%d2%af%d1%91%d1%80%d2%b9%d2%af%d1%96",
+        "server_name": "t.me",
         "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
+      "server": "202.146.222.174",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852",
+      "server": "47.244.120.197",
+      "server_port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/arki"
       }
     },
     {
@@ -81,7 +93,8 @@
         "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
+        "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852"
       ]
     },
     {
@@ -92,7 +105,8 @@
         "🇭🇰 中国香港 (Hong Kong) 02 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 03 - feiyu852",
         "🇭🇰 中国香港 (Hong Kong) 04 - feiyu852",
-        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852"
+        "🇭🇰 中国香港 (Hong Kong) 05 - feiyu852",
+        "🇭🇰 中国香港 (Hong Kong) 06 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
