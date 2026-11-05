@@ -24,23 +24,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 02 - feiyu852",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "in-152.67.8.205-0202"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - feiyu852",
+      "tag": "🇮🇳 印度 (India) 02 - feiyu852",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -54,7 +39,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - feiyu852",
+      "tag": "🇮🇳 印度 (India) 03 - feiyu852",
       "server": "in.smrtai.top",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
@@ -63,12 +48,27 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
           "short_id": "6bdc8320"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 04 - feiyu852",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "in-152.67.8.205-0204"
         }
       }
     },
@@ -85,18 +85,6 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 06 - feiyu852",
-      "server": "144.24.109.215",
-      "server_port": 51000,
-      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
-      "tls": {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -105,8 +93,7 @@
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
         "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852",
-        "🇮🇳 印度 (India) 06 - feiyu852"
+        "🇮🇳 印度 (India) 05 - feiyu852"
       ]
     },
     {
@@ -117,8 +104,7 @@
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
         "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852",
-        "🇮🇳 印度 (India) 06 - feiyu852"
+        "🇮🇳 印度 (India) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
