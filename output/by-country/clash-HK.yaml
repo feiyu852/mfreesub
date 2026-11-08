@@ -15,14 +15,6 @@ proxies:
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - feiyu852
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vk.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - feiyu852
   server: 202.146.222.174
   port: 443
   udp: true
@@ -30,14 +22,27 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 'off'
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - feiyu852
-  server: 202.146.222.29
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - feiyu852
+  server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https3a2f2ft.me2fwangcai2efa3bfc3bcc3a1
+  sni: 202.146.222.89
   skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - feiyu852
+  server: ad6ea328-ace0-45e1-8b69-e698536fa709.67dc6e59-0fd8-4ca5-ba29-26a8817e203b.byteprivatelink.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2a778078-9f4f-4203-a204-6fb94547b707
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xBBebAa3_FmRJAzPnEP9seJneZtPiIZVLHo23pHxRxc
+    short-id: a0134868
+  servername: live.douyin.com
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
