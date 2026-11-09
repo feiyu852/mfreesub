@@ -6,17 +6,21 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - feiyu852",
-      "server": "2.26.6.1",
-      "server_port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "server": "80.47.13.182",
+      "server_port": 443,
+      "uuid": "95f85937-7b95-45c4-8d69-95da6a978569",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": true,
+        "server_name": "dl.megadrishto.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "stats.v2.StreamService"
       }
     },
     {
@@ -32,12 +36,42 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - feiyu852",
+      "server": "2.26.6.1",
+      "server_port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇵🇱 波兰 (Poland) 04 - feiyu852",
+      "server": "13.143.189.101",
+      "server_port": 4444,
+      "password": "a35c508f-4d5d-4531-842e-6e9d43c762c0",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl1.nexfile.net",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇵🇱 波兰 (Poland) 01 - feiyu852",
-        "🇵🇱 波兰 (Poland) 02 - feiyu852"
+        "🇵🇱 波兰 (Poland) 02 - feiyu852",
+        "🇵🇱 波兰 (Poland) 03 - feiyu852",
+        "🇵🇱 波兰 (Poland) 04 - feiyu852"
       ]
     },
     {
@@ -45,7 +79,9 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 波兰 (Poland) 01 - feiyu852",
-        "🇵🇱 波兰 (Poland) 02 - feiyu852"
+        "🇵🇱 波兰 (Poland) 02 - feiyu852",
+        "🇵🇱 波兰 (Poland) 03 - feiyu852",
+        "🇵🇱 波兰 (Poland) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
