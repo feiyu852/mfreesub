@@ -6,27 +6,36 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 01 - feiyu852",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
+      "server": "169.40.34.41",
+      "server_port": 443,
+      "uuid": "622654a4-b666-000b-9260-fb717e05154f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "key-master-saver.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY",
+          "short_id": "1c3e8241a8743df9"
         }
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-      "server": "fi1.obxodvpn.us",
-      "server_port": 443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.obxodvpn.us",
-        "insecure": false
+      "server": "213.176.92.168",
+      "server_port": 14430,
+      "uuid": "ba52cc43-700d-4040-9444-29214c98e6e0",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "213.176.92.168"
+        }
       }
     },
     {
@@ -53,13 +62,28 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - feiyu852",
+      "server": "45.144.234.157",
+      "server_port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
         "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
+        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
       ]
     },
     {
@@ -68,7 +92,8 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - feiyu852",
         "🇫🇮 芬兰 (Finland) 02 - feiyu852",
-        "🇫🇮 芬兰 (Finland) 03 - feiyu852"
+        "🇫🇮 芬兰 (Finland) 03 - feiyu852",
+        "🇫🇮 芬兰 (Finland) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

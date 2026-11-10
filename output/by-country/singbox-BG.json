@@ -23,29 +23,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
-      "server": "131.123.43.103",
-      "server_port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "bg2.gacvpn.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg",
-          "short_id": "1f8bab7ad81089f2"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
       "server": "191.44.112.170",
       "server_port": 443,
       "password": "46d221fa-e9b4-748c-4eae-019a88e42991",
@@ -68,8 +47,7 @@
       "outbounds": [
         "auto",
         "🇧🇬 保加利亚 (Bulgaria) 01 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852"
       ]
     },
     {
@@ -77,8 +55,7 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇬 保加利亚 (Bulgaria) 01 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852",
-        "🇧🇬 保加利亚 (Bulgaria) 03 - feiyu852"
+        "🇧🇬 保加利亚 (Bulgaria) 02 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

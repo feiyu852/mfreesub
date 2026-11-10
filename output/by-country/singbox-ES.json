@@ -6,6 +6,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - feiyu852",
+      "server": "66.163.118.103",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
       "server": "193.148.19.214",
       "server_port": 12798,
       "method": "aes-128-gcm",
@@ -13,16 +21,8 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - feiyu852",
-      "server": "167.17.71.167",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 03 - feiyu852",
-      "server": "66.163.118.103",
+      "server": "167.17.71.167",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -46,7 +46,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -58,33 +58,61 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 06 - feiyu852",
-      "server": "66.163.118.203",
+      "server": "66.163.118.62",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "courses.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - feiyu852",
+      "server": "66.163.118.131",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - feiyu852",
+      "server": "66.163.118.40",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - feiyu852",
-      "server": "83.147.18.3",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - feiyu852",
+      "server": "46.28.71.247",
       "server_port": 443,
-      "uuid": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
+      "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
-          "short_id": "fd8cf7e1173f0edb"
+          "public_key": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
+          "short_id": "0dfc23fe80778c00"
         }
       }
     },
@@ -99,7 +127,9 @@
         "🇪🇸 西班牙 (Spain) 04 - feiyu852",
         "🇪🇸 西班牙 (Spain) 05 - feiyu852",
         "🇪🇸 西班牙 (Spain) 06 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 07 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 07 - feiyu852",
+        "🇪🇸 西班牙 (Spain) 08 - feiyu852",
+        "🇪🇸 西班牙 (Spain) 09 - feiyu852"
       ]
     },
     {
@@ -112,7 +142,9 @@
         "🇪🇸 西班牙 (Spain) 04 - feiyu852",
         "🇪🇸 西班牙 (Spain) 05 - feiyu852",
         "🇪🇸 西班牙 (Spain) 06 - feiyu852",
-        "🇪🇸 西班牙 (Spain) 07 - feiyu852"
+        "🇪🇸 西班牙 (Spain) 07 - feiyu852",
+        "🇪🇸 西班牙 (Spain) 08 - feiyu852",
+        "🇪🇸 西班牙 (Spain) 09 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
