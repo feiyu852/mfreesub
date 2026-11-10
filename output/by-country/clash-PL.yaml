@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - feiyu852
-  server: 80.47.13.182
-  port: 443
-  udp: true
-  type: vless
-  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
-  tls: true
-  servername: dl.megadrishto.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: stats.v2.StreamService
-- name: 🇵🇱 波兰 (Poland) 02 - feiyu852
   server: 70.34.252.255
   port: 443
   udp: true
@@ -25,7 +12,7 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 03 - feiyu852
+- name: 🇵🇱 波兰 (Poland) 02 - feiyu852
   server: 2.26.6.1
   port: 2087
   udp: true
@@ -35,14 +22,6 @@ proxies:
   servername: 2.26.6.1
   skip-cert-verify: true
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 04 - feiyu852
-  server: 13.143.189.101
-  port: 4444
-  udp: true
-  type: hysteria2
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  sni: pl1.nexfile.net
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,8 +29,6 @@ proxy-groups:
   - AUTO
   - 🇵🇱 波兰 (Poland) 01 - feiyu852
   - 🇵🇱 波兰 (Poland) 02 - feiyu852
-  - 🇵🇱 波兰 (Poland) 03 - feiyu852
-  - 🇵🇱 波兰 (Poland) 04 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,7 +36,5 @@ proxy-groups:
   proxies:
   - 🇵🇱 波兰 (Poland) 01 - feiyu852
   - 🇵🇱 波兰 (Poland) 02 - feiyu852
-  - 🇵🇱 波兰 (Poland) 03 - feiyu852
-  - 🇵🇱 波兰 (Poland) 04 - feiyu852
 rules:
 - MATCH,PROXIES
