@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇸 冰岛 (Iceland) 01 - feiyu852",
-      "server": "191.44.112.170",
-      "server_port": 443,
-      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - feiyu852",
+      "server": "154.21.203.106",
+      "server_port": 51279,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "orbylume.my.to",
-        "insecure": false,
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tvpn-tor/is",
-        "headers": {
-          "Host": "orbylume.my.to"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A",
+          "short_id": "bb82c8"
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇸 冰岛 (Iceland) 01 - feiyu852"
+        "🇻🇳 越南 (Vietnam) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇸 冰岛 (Iceland) 01 - feiyu852"
+        "🇻🇳 越南 (Vietnam) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
