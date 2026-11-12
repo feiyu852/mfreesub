@@ -34,15 +34,32 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇸🇪 瑞典 (Sweden) 04 - feiyu852",
+      "server": "62.93.166.184",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - feiyu852",
       "server": "138.124.86.230",
       "server_port": 48115,
       "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
       "tls": {
         "enabled": true,
         "server_name": "138-124-86-230.sslip.io",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
       "transport": {
         "type": "grpc",
@@ -57,7 +74,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - feiyu852",
         "🇸🇪 瑞典 (Sweden) 02 - feiyu852",
         "🇸🇪 瑞典 (Sweden) 03 - feiyu852",
-        "🇸🇪 瑞典 (Sweden) 04 - feiyu852"
+        "🇸🇪 瑞典 (Sweden) 04 - feiyu852",
+        "🇸🇪 瑞典 (Sweden) 05 - feiyu852"
       ]
     },
     {
@@ -67,7 +85,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - feiyu852",
         "🇸🇪 瑞典 (Sweden) 02 - feiyu852",
         "🇸🇪 瑞典 (Sweden) 03 - feiyu852",
-        "🇸🇪 瑞典 (Sweden) 04 - feiyu852"
+        "🇸🇪 瑞典 (Sweden) 04 - feiyu852",
+        "🇸🇪 瑞典 (Sweden) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
