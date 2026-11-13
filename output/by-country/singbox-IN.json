@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,26 +26,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 02 - feiyu852",
-      "server": "178.212.35.198",
-      "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-          "short_id": "6bdc8320"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - feiyu852",
       "server": "13.140.56.100",
       "server_port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -54,6 +34,26 @@
         "path": "/vless",
         "headers": {
           "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 03 - feiyu852",
+      "server": "in.smrtai.top",
+      "server_port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
         }
       }
     },
@@ -81,29 +81,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - feiyu852",
-      "server": "13.140.253.35",
-      "server_port": 443,
-      "uuid": "f1a7e2c8-b140-50d1-8acf-e62090f96599",
-      "tls": {
-        "enabled": true,
-        "server_name": "xray-bprkdwje-clever-comet-4.cloady.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/27dbf143acdd7bca",
-        "headers": {
-          "Host": "xray-bprkdwje-clever-comet-4.cloady.io"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -111,8 +88,7 @@
         "🇮🇳 印度 (India) 01 - feiyu852",
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
-        "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852"
+        "🇮🇳 印度 (India) 04 - feiyu852"
       ]
     },
     {
@@ -122,8 +98,7 @@
         "🇮🇳 印度 (India) 01 - feiyu852",
         "🇮🇳 印度 (India) 02 - feiyu852",
         "🇮🇳 印度 (India) 03 - feiyu852",
-        "🇮🇳 印度 (India) 04 - feiyu852",
-        "🇮🇳 印度 (India) 05 - feiyu852"
+        "🇮🇳 印度 (India) 04 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
