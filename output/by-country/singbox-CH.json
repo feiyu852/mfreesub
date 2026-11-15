@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - feiyu852",
-      "server": "79.127.184.104",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
       "server": "23.166.88.127",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -21,27 +13,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
-      "server": "186.190.215.251",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
+      "server": "79.127.184.104",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - feiyu852",
-      "server": "guide.blog-forme.ru",
-      "server_port": 443,
-      "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "tls": {
-        "enabled": true,
-        "server_name": "guide.blog-forme.ru",
-        "insecure": false
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - feiyu852",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
       "server": "208.69.78.19",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -53,19 +33,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - feiyu852",
-      "server": "208.69.78.208",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 07 - feiyu852",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - feiyu852",
       "server": "208.69.78.60",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -77,42 +45,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 08 - feiyu852",
-      "server": "208.69.78.33",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 09 - feiyu852",
-      "server": "46.101.46.169",
-      "server_port": 486,
-      "uuid": "16bf3359-e7d8-4de6-86a0-6d65cf793b56",
-      "tls": {
-        "enabled": true,
-        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 10 - feiyu852",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - feiyu852",
       "server": "208.69.78.29",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -120,18 +53,6 @@
         "enabled": true,
         "server_name": "learn.yourultimateprofessionalcareerhub.com",
         "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 11 - feiyu852",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
       }
     },
     {
@@ -143,13 +64,7 @@
         "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 04 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 05 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 06 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 07 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 08 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 09 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 10 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 11 - feiyu852"
+        "🇨🇭 瑞士 (Switzerland) 05 - feiyu852"
       ]
     },
     {
@@ -160,13 +75,7 @@
         "🇨🇭 瑞士 (Switzerland) 02 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 03 - feiyu852",
         "🇨🇭 瑞士 (Switzerland) 04 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 05 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 06 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 07 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 08 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 09 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 10 - feiyu852",
-        "🇨🇭 瑞士 (Switzerland) 11 - feiyu852"
+        "🇨🇭 瑞士 (Switzerland) 05 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
