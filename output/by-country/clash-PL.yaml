@@ -5,17 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - feiyu852
-  server: 45.194.66.177
+  server: 144.31.0.101
   port: 443
   udp: true
   type: vless
-  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
   flow: xtls-rprx-vision
   tls: true
-  servername: 31tawwo0.virtual-network.lol
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 1eEtiZY5qDDosntp-9_xFnOIvOBzHy4d3-eA7v11qx0
+  servername: gmtrtb.wey-land.net
   client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 02 - feiyu852
+  server: 179.253.101.162
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+  flow: xtls-rprx-vision
+  tls: true
+  servername: app.streamru17.net
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 03 - feiyu852
   server: 54.37.131.126
   port: 80
   udp: true
@@ -35,6 +46,7 @@ proxy-groups:
   - AUTO
   - 🇵🇱 波兰 (Poland) 01 - feiyu852
   - 🇵🇱 波兰 (Poland) 02 - feiyu852
+  - 🇵🇱 波兰 (Poland) 03 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -42,5 +54,6 @@ proxy-groups:
   proxies:
   - 🇵🇱 波兰 (Poland) 01 - feiyu852
   - 🇵🇱 波兰 (Poland) 02 - feiyu852
+  - 🇵🇱 波兰 (Poland) 03 - feiyu852
 rules:
 - MATCH,PROXIES
