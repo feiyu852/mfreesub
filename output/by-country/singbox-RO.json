@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇬🇷 希腊 (Greece) 01 - feiyu852",
-      "server": "85.90.197.220",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 01 - feiyu852",
+      "server": "176.108.245.73",
       "server_port": 443,
-      "uuid": "8f704ed6-9a1a-4d04-94dd-1bff501716de",
+      "uuid": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "pawuk.belka.tv",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4",
-          "short_id": "94acb54627612d43"
+          "public_key": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
+          "short_id": "a9dc98a7dc87a7dc"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇷 希腊 (Greece) 01 - feiyu852"
+        "🇷🇴 罗马尼亚 (Romania) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 希腊 (Greece) 01 - feiyu852"
+        "🇷🇴 罗马尼亚 (Romania) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
