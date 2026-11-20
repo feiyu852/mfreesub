@@ -24,18 +24,20 @@ proxies:
   servername: api-svc-mgr.galioncc.com
   client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 03 - feiyu852
-  server: 62.93.166.184
-  port: 1270
+  server: 138.124.86.230
+  port: 48115
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   tls: true
-  servername: xmfhlpy.com
+  servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
 - name: 🇸🇪 瑞典 (Sweden) 04 - feiyu852
-  server: 138.199.55.230
+  server: 62.93.166.184
   port: 1270
   udp: true
   type: vmess
@@ -63,20 +65,7 @@ proxies:
   type: trojan
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   sni: connect-se.mimowhat.online
-  skip-cert-verify: true
-- name: 🇸🇪 瑞典 (Sweden) 07 - feiyu852
-  server: 138.124.86.230
-  port: 48115
-  udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -88,7 +77,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - feiyu852
   - 🇸🇪 瑞典 (Sweden) 05 - feiyu852
   - 🇸🇪 瑞典 (Sweden) 06 - feiyu852
-  - 🇸🇪 瑞典 (Sweden) 07 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -100,6 +88,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - feiyu852
   - 🇸🇪 瑞典 (Sweden) 05 - feiyu852
   - 🇸🇪 瑞典 (Sweden) 06 - feiyu852
-  - 🇸🇪 瑞典 (Sweden) 07 - feiyu852
 rules:
 - MATCH,PROXIES
