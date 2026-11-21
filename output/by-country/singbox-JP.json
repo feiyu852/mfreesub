@@ -47,19 +47,19 @@
       "password": "184cdec28da5a09450803c8debcd2cc9",
       "tls": {
         "enabled": true,
-        "server_name": "1",
+        "server_name": "138.3.208.26",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇯🇵 日本 (Japan) 06 - feiyu852",
-      "server": "8.209.247.109",
-      "server_port": 443,
-      "password": "usqmqUKJFIlCmvkCNSY64L3k",
+      "server": "8.211.175.236",
+      "server_port": 8443,
+      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "8.211.175.236",
         "insecure": true
       }
     },
@@ -93,33 +93,6 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 08 - feiyu852",
-      "server": "172.104.86.181",
-      "server_port": 443,
-      "uuid": "010431f3-04f6-4404-a801-b93bf2e3c2b2",
-      "tls": {
-        "enabled": true,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk",
-          "short_id": "c8559ca1"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "itunes.apple.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 09 - feiyu852",
       "server": "172.105.203.15",
       "server_port": 443,
       "uuid": "c8c9b995-b4b9-4915-9c7d-dee94aa733ba",
@@ -134,6 +107,33 @@
           "enabled": true,
           "public_key": "HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA",
           "short_id": "0784b134"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 09 - feiyu852",
+      "server": "149.28.29.156",
+      "server_port": 443,
+      "uuid": "aa1a9052-720f-4bb0-92be-21b6baf9f386",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0",
+          "short_id": "e535df57"
         }
       },
       "transport": {
@@ -174,9 +174,9 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 11 - feiyu852",
-      "server": "149.28.29.156",
+      "server": "172.104.86.181",
       "server_port": 443,
-      "uuid": "aa1a9052-720f-4bb0-92be-21b6baf9f386",
+      "uuid": "010431f3-04f6-4404-a801-b93bf2e3c2b2",
       "tls": {
         "enabled": true,
         "server_name": "itunes.apple.com",
@@ -186,8 +186,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "qgCGmxD1lyAEIGZVEk4buAMGcvGvHLl9wGxPQlHCYX0",
-          "short_id": "e535df57"
+          "public_key": "ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk",
+          "short_id": "c8559ca1"
         }
       },
       "transport": {
@@ -202,7 +202,7 @@
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 12 - feiyu852",
       "server": "84.247.155.196",
-      "server_port": 80,
+      "server_port": 443,
       "method": "aes-256-gcm",
       "password": "3eOFeNssde7PYYMv"
     },
@@ -210,34 +210,14 @@
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 13 - feiyu852",
       "server": "84.247.155.196",
-      "server_port": 443,
+      "server_port": 80,
       "method": "aes-256-gcm",
       "password": "3eOFeNssde7PYYMv"
     },
     {
-      "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 14 - feiyu852",
-      "server": "104.25.0.1",
-      "server_port": 2083,
-      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "or3.sfacg.uk",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/or3",
-        "headers": {
-          "Host": "or3.sfacg.uk"
-        }
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 15 - feiyu852",
-      "server": "104.16.10.135",
+      "tag": "🇯🇵 日本 (Japan) 14 - feiyu852",
+      "server": "104.16.0.1",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -271,8 +251,7 @@
         "🇯🇵 日本 (Japan) 11 - feiyu852",
         "🇯🇵 日本 (Japan) 12 - feiyu852",
         "🇯🇵 日本 (Japan) 13 - feiyu852",
-        "🇯🇵 日本 (Japan) 14 - feiyu852",
-        "🇯🇵 日本 (Japan) 15 - feiyu852"
+        "🇯🇵 日本 (Japan) 14 - feiyu852"
       ]
     },
     {
@@ -292,8 +271,7 @@
         "🇯🇵 日本 (Japan) 11 - feiyu852",
         "🇯🇵 日本 (Japan) 12 - feiyu852",
         "🇯🇵 日本 (Japan) 13 - feiyu852",
-        "🇯🇵 日本 (Japan) 14 - feiyu852",
-        "🇯🇵 日本 (Japan) 15 - feiyu852"
+        "🇯🇵 日本 (Japan) 14 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

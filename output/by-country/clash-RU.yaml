@@ -5,18 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - feiyu852
-  server: 147.45.47.101
+  server: 37.235.247.81
   port: 8443
   udp: true
   type: vless
-  uuid: 27f26dee-9cf1-4cca-93f8-9ac23d311408
+  uuid: 2ae0670d-0bdf-409e-9a55-4e970252d378
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   servername: apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 02 - feiyu852
   server: 48.103.133.47
   port: 8443
@@ -31,14 +31,20 @@ proxies:
   servername: apple.com
   client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 03 - feiyu852
-  server: 130.49.189.158
-  port: 43558
+  server: vps3.nemnogogo.com
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
 - name: 🇷🇺 俄罗斯 (Russia) 04 - feiyu852
-  server: 103.88.243.142
+  server: srv-17e124.21freedom.net
   port: 11592
   udp: true
   type: hysteria2
@@ -59,7 +65,56 @@ proxies:
   grpc-opts:
     grpc-service-name: mobile.api.Event
 - name: 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
-  server: 147.45.175.81
+  server: 201.51.12.98
+  port: 443
+  udp: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇷🇺 俄罗斯 (Russia) 07 - feiyu852
+  server: 201.51.12.98
+  port: 443
+  udp: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 🇷🇺 俄罗斯 (Russia) 08 - feiyu852
+  server: 201.51.12.98
+  port: 443
+  udp: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇷🇺 俄罗斯 (Russia) 09 - feiyu852
+  server: 136.148.83.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- name: 🇷🇺 俄罗斯 (Russia) 10 - feiyu852
+  server: xssite.webredirect.org
   port: 443
   udp: true
   type: vless
@@ -71,21 +126,28 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 07 - feiyu852
-  server: 185.178.208.167
+- name: 🇷🇺 俄罗斯 (Russia) 11 - feiyu852
+  server: 147.45.175.81
   port: 443
   udp: true
   type: vless
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: unlik.club
+  servername: xsru2.freeddns.org
   skip-cert-verify: false
   client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /static/telemetry/3c9aaef00005/
+    path: /wsru
     headers:
-      Host: tochkacdn.top
+      Host: xsru2.freeddns.org
+- name: 🇷🇺 俄罗斯 (Russia) 12 - feiyu852
+  server: 90.156.203.62
+  port: 5112
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: VVlAff77CnAU43Aoc5j15Y
 proxy-groups:
 - name: PROXIES
   type: select
@@ -98,6 +160,11 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 07 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 08 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 09 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 10 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 11 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 12 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -110,5 +177,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 06 - feiyu852
   - 🇷🇺 俄罗斯 (Russia) 07 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 08 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 09 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 10 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 11 - feiyu852
+  - 🇷🇺 俄罗斯 (Russia) 12 - feiyu852
 rules:
 - MATCH,PROXIES
