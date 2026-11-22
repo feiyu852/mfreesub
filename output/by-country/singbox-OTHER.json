@@ -6,23 +6,19 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - feiyu852",
-      "server": "104.18.35.15",
+      "server": "104.19.33.237",
       "server_port": 443,
-      "uuid": "11111111-2222-3333-4444-555555555555",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "notified-rendered-moore-consideration.trycloudflare.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "jp3.yohototo.top",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/tg-jiedianxielou",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "notified-rendered-moore-consideration.trycloudflare.com"
+          "Host": "jp3.yohototo.top"
         }
       }
     },

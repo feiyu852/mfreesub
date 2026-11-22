@@ -4,16 +4,45 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "server": "48.103.133.47",
+      "server_port": 8443,
+      "uuid": "2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
+      "server": "168.113.252.11",
+      "server_port": 443,
+      "uuid": "8973e4a5-1c15-0001-abc7-60fb180063ea",
+      "tls": {
+        "enabled": true,
+        "server_name": "jkawq-ru-45sb.fade.mom",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
       "server": "201.51.12.98",
       "server_port": 443,
       "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
@@ -33,7 +62,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+      "server": "168.113.253.178",
+      "server_port": 443,
+      "uuid": "608172ed-68e4-0001-85dc-f92c25d0eb92",
+      "tls": {
+        "enabled": true,
+        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
       "server": "168.113.253.178",
       "server_port": 443,
       "uuid": "eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b",
@@ -49,7 +90,59 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
+      "server": "168.113.253.178",
+      "server_port": 443,
+      "uuid": "d6d40100-9442-0001-b5b9-6d259318c421",
+      "tls": {
+        "enabled": true,
+        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
+      "server": "136.148.83.69",
+      "server_port": 443,
+      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
+      "tls": {
+        "enabled": true,
+        "server_name": "szqbx-ru-77dc.my-fade.cloud",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - feiyu852",
+      "server": "147.45.175.81",
+      "server_port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "xsru1.ddnsfree.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 09 - feiyu852",
       "server": "xssite.webredirect.org",
       "server_port": 443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
@@ -68,6 +161,14 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 10 - feiyu852",
+      "server": "90.156.203.62",
+      "server_port": 5112,
+      "method": "chacha20-ietf-poly1305",
+      "password": "VVlAff77CnAU43Aoc5j15Y"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -75,7 +176,13 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 08 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 09 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 10 - feiyu852"
       ]
     },
     {
@@ -85,7 +192,13 @@
         "🇷🇺 俄罗斯 (Russia) 01 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 02 - feiyu852",
         "🇷🇺 俄罗斯 (Russia) 03 - feiyu852",
-        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852"
+        "🇷🇺 俄罗斯 (Russia) 04 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 05 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 06 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 07 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 08 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 09 - feiyu852",
+        "🇷🇺 俄罗斯 (Russia) 10 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
