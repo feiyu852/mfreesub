@@ -5,21 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - feiyu852",
-      "server": "143.246.136.128",
-      "server_port": 50738,
-      "uuid": "56665684-5ac0-4ba9-9d49-8b258fb57974",
+      "tag": "🌐 其他地区 (Other) 01 - feiyu852",
+      "server": "104.21.94.203",
+      "server_port": 443,
+      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
       "tls": {
         "enabled": true,
-        "server_name": "turkey-ip1.mmdaqaorg.xyz",
+        "server_name": "fr-free.fastestrelay.com",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/700gvl",
+        "headers": {
+          "Host": "fr-free.fastestrelay.com"
         }
       }
     },
@@ -28,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - feiyu852"
+        "🌐 其他地区 (Other) 01 - feiyu852"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
