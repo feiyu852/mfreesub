@@ -4,25 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - feiyu852",
-      "server": "104.21.94.203",
-      "server_port": 443,
-      "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr-free.fastestrelay.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "104.21.0.1",
+      "server_port": 80,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/700gvl",
+        "path": "/ws",
         "headers": {
-          "Host": "fr-free.fastestrelay.com"
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },
