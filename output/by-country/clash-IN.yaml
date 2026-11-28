@@ -13,8 +13,19 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+    headers:
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 02 - feiyu852
-  server: 178.212.35.198
+  server: kuruish.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  tls: true
+  servername: kuruish.org
+  skip-cert-verify: false
+- name: 🇮🇳 印度 (India) 03 - feiyu852
+  server: in.smrtai.top
   port: 443
   udp: true
   type: vless
@@ -25,23 +36,8 @@ proxies:
     short-id: 6bdc8320
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 03 - feiyu852
-  server: 147.93.171.8
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 591e7de6-f2dd-4ff9-ae21-8e00d5affa2a
-  tls: true
-  servername: 147-93-171-8.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vpn-live
-    headers:
-      Host: 147-93-171-8.sslip.io
 - name: 🇮🇳 印度 (India) 04 - feiyu852
-  server: 13.140.253.35
+  server: 13.140.74.242
   port: 443
   udp: true
   type: vless
