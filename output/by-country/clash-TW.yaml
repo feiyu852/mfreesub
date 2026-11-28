@@ -10,29 +10,16 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
+  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - feiyu852
-  server: 160.187.100.109
+  server: vpn-tw-002.fastervpn.world
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - feiyu852
-  server: 116.213.43.43
-  port: 11102
-  udp: true
-  type: vless
-  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
-    short-id: ed571d022f7bc3bf
-  servername: www.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,7 +27,6 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 - feiyu852
   - 🇹🇼 中国台湾 (Taiwan) 02 - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 03 - feiyu852
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,6 +34,5 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 - feiyu852
   - 🇹🇼 中国台湾 (Taiwan) 02 - feiyu852
-  - 🇹🇼 中国台湾 (Taiwan) 03 - feiyu852
 rules:
 - MATCH,PROXIES
